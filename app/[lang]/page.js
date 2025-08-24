@@ -1,41 +1,30 @@
-import { defaultLocale, getDictionary } from '@/lib/i18n';
-
+import { i18n, getDictionary, defaultLocale } from '@/lib/i18n';
 import Hero from '@/components/home/hero';
 import Feature from '@/components/home/feature';
-import Pricing from '@/components/home/pricing';
 import Testimonial from '@/components/home/testimonial';
-import Faq from '@/components/home/faq';
-import Cta from '@/components/home/cta';
-export default async function Home({ params }) {
-	const langName = params.lang || defaultLocale;
-	const dict = await getDictionary(langName); // 获取内容
+import FAQ from '@/components/home/faq';
+import CTA from '@/components/home/cta';
+import AppPreview from '@/components/home/appPreview';
+import HowItWorks from '@/components/home/howItWorks';
+
+export async function generateStaticParams() {
+	return i18n.locales.map((locale) => ({ lang: locale }));
+}
+
+export default async function Home({ params: { lang } }) {
+	// Ensure we have a valid language, fallback to default
+	const currentLang = i18n.locales.includes(lang) ? lang : defaultLocale;
+	const locale = await getDictionary(currentLang);
 
 	return (
-		<div className='container mx-auto md:px-5'>
-			<Hero
-				locale={dict.Hero}
-				CTALocale={dict.CTAButton}
-			/>
-			<Feature
-				locale={dict.Feature}
-				langName={langName}
-			/>
-			<Pricing
-				locale={dict.Pricing}
-				langName={langName}
-			/>
-			<Testimonial
-				locale={dict.Testimonial}
-				langName={langName}
-			/>
-			<Faq
-				locale={dict.Faq}
-				langName={langName}
-			/>
-			<Cta
-				locale={dict.CTA}
-				CTALocale={dict.CTAButton}
-			/>
-		</div>
+		<>
+			<Hero locale={locale.Hero} CTALocale={locale.CTAButton} />
+			<Feature locale={locale.Feature} />
+			<AppPreview locale={locale.AppPreview} />
+			<HowItWorks locale={locale.HowItWorks} />
+			<Testimonial locale={locale.Testimonial} />
+			<FAQ locale={locale.Faq} />
+			<CTA locale={locale.CTA} CTALocale={locale.CTAButton} />
+		</>
 	);
 }

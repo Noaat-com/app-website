@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
 	const fontClass = jakarta.className || ''  // 确保有默认值
 	
 	return (
-		<html lang="en" className={fontClass}>
+		<html lang="ar" className={fontClass}>
 			<body>
 				<ThemeScript />
 				<div className='w-full min-h-svh text-base-content bg-base-100'>

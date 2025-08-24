@@ -2,8 +2,7 @@
 import HeroIcons from './icons';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { SiGithub } from 'react-icons/si';
-import { IoDocumentText } from 'react-icons/io5';
+import { FaApple, FaAndroid } from 'react-icons/fa';
 
 import { useEffect, useState } from 'react';
 export default function Hero({ locale, CTALocale }) {
@@ -12,9 +11,9 @@ export default function Hero({ locale, CTALocale }) {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			const maxTilt = 45; // 最大倾斜角度
+			const maxTilt = 45;
 			const scrollY = window.scrollY;
-			const tiltValue = Math.max(maxTilt - scrollY / 8, 0); // 根据滚动值调整
+			const tiltValue = Math.max(maxTilt - scrollY / 8, 0);
 			setTilt(tiltValue);
 			setDuration(0.3);
 		};
@@ -57,19 +56,19 @@ export default function Hero({ locale, CTALocale }) {
 
 						<div className='flex flex-col md:flex-row gap-2'>
 							<a
-								title='get source code'
+								title='Download on the App Store'
 								className='btn btn-sm md:btn-md btn-base border-none hover:ring-1 ring-base-content text-base-100 hover:text-base-content bg-base-content hover:bg-base-100 rounded-full'
-								href='https://github.com/huglemon/inwind-landing-page'
+								href='https://apps.apple.com/eg/app/noaat/id6651818110'
 							>
-								<SiGithub />
+								<FaApple />
 								{CTALocale.btn1}
 							</a>
 							<a
-								title='get source code'
+								title='Get it on Google Play'
 								className='btn btn-sm md:btn-md btn-base rounded-full'
-								href='https://huglemon.com/blog/i-open-sourced-a-saas-landing-page'
+								href='https://play.google.com/store/apps/details?id=com.noaatfrontend&hl=en'
 							>
-								<IoDocumentText /> {CTALocale.btn2}
+								<FaAndroid /> {CTALocale.btn2}
 							</a>
 						</div>
 					</div>

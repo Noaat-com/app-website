@@ -5,16 +5,34 @@ import HTMLReactParser from 'html-react-parser';
 import Sidebar from '@/components/blog/sidebar';
 
 import { notFound } from 'next/navigation';
-import blog from '@/locales/blog/blog.json';
 
 // You can actually just send lang when you fetch content from the back-end
 import { SiteConfig } from '@/lib/config/site';
+
+// Helper function to load blog content
+async function loadBlogArticle(slug) {
+	try {
+		const article = await import(`@/locales/blog/${slug}.json`);
+		return article.default;
+	} catch (error) {
+		return null;
+	}
+}
+
 export async function generateMetadata({ params, searchParams }) {
 	const langName = params.lang || defaultLocale;
+	const slug = params.name;
 
 	let langSiteConfig = SiteConfig[langName];
 
-	const article = blog[langName];
+	const blogData = await loadBlogArticle(slug);
+	if (!blogData || !blogData[langName]) {
+		return {
+			title: 'Article Not Found - ' + langSiteConfig.name,
+		};
+	}
+
+	const article = blogData[langName];
 
 	let keywords = article.tagList.map((item) => {
 		return item.name;
@@ -40,14 +58,17 @@ export async function generateMetadata({ params, searchParams }) {
 
 export default async function page({ params }) {
 	const langName = params.lang || defaultLocale;
-	const dict = await getDictionary(langName); // 获取内容
+	const slug = params.name;
+	const dict = await getDictionary(langName);
 
-	const article = blog[langName];
-	if (pubfn.isNull(article)) {
+	const blogData = await loadBlogArticle(slug);
+	if (!blogData || !blogData[langName]) {
 		notFound();
 	}
+
+	const article = blogData[langName];
 	return (
-		<main className='container mx-auto md:px-5'>
+		<main className={`container mx-auto md:px-5 ${langName === 'ar' ? 'rtl' : 'ltr'}`} dir={langName === 'ar' ? 'rtl' : 'ltr'}>
 			<div className='hidden md:block absolute left-[5%] top-[10%] z-0'>
 				<div className='absolute bottom-0 left-[-20%] right-0 top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,theme(colors.primary/15%),rgba(255,255,255,0))]'></div>
 			</div>
@@ -62,7 +83,7 @@ export default async function page({ params }) {
 						<a href={`/${params.lang}/blog`}>{dict['Blog']['title']}</a>
 					</li>
 					<li>
-						<a href={`/${params.lang}/blog/{article.url_name}`}>{article.name}</a>
+						<a href={`/${params.lang}/blog/${article.url_name}`}>{article.name}</a>
 					</li>
 				</ul>
 			</div>

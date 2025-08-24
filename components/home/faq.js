@@ -1,10 +1,11 @@
 'use client';
-import { FAQList } from '@/lib/faqsList';
 import { motion } from 'framer-motion';
 import { FaQuestionCircle } from 'react-icons/fa';
 
-export default function Feature({ locale, langName = 'en' }) {
-	let list = FAQList[`FAQ_${langName.toUpperCase()}`] || [];
+export default function FAQ({ locale, langName = 'en' }) {
+	// The list of FAQs is now expected to be part of the locale prop
+	const list = locale.list || [];
+
 	return (
 		<section
 			id='faq'
