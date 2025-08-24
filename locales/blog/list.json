@@ -29,13 +29,6 @@
 			"create_time": 1724889600000
 		},
 		{
-			"name": "اشهر المطاعم في مصر اللي بتقدم خصومات على نقط",
-			"url_name": "famous-restaurants-offering-discounts-on-noaat",
-			"image": "/image/partner-restaurants.jpg",
-			"description": "اكتشف قائمة بأشهر المطاعم في مصر التي تقدم عروض حصرية وخصومات اكل مميزة لمستخدمي تطبيق نقط.",
-			"create_time": 1724803200000
-		},
-		{
 			"name": "دليل شراء كوبون: ازاي تلاقي خصومات اكل بسهولة",
 			"url_name": "coupon-buying-guide-find-best-food-discounts",
 			"image": "/image/coupon-guide.jpg",
@@ -127,13 +120,6 @@
 			"image": "/image/food-app.jpg",
 			"description": "Why should you have a food deals app on your phone? Discover how Noaat is changing the way you save money every time you order food.",
 			"create_time": 1724889600000
-		},
-		{
-			"name": "Famous Restaurants in Egypt Offering Discounts on Noaat",
-			"url_name": "famous-restaurants-offering-discounts-on-noaat",
-			"image": "/image/partner-restaurants.jpg",
-			"description": "Discover a list of the most famous restaurants in Egypt that offer exclusive deals and significant food discounts for Noaat app users.",
-			"create_time": 1724803200000
 		},
 		{
 			"name": "Coupon Buying Guide: How to Find the Best Food Discounts",
