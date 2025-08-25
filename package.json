@@ -15,7 +15,7 @@
     "framer-motion": "^11.2.12",
     "html-react-parser": "^5.1.18",
     "negotiator": "^0.6.3",
-    "next": "14.2.4",
+    "next": "^14.2.32",
     "next-sitemap": "^4.2.3",
     "react": "^18",
     "react-dom": "^18",
