@@ -103,7 +103,6 @@ export default async function page({ params }) {
 						</div>
 					</div>
 					<div className='divider'></div>
-					{/* 富文本内容 */}
 					<div className='prose'>{HTMLReactParser(article.content)}</div>
 				</div>
 				<div className='w-full md:w-1/3 '>

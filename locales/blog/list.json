@@ -52,7 +52,7 @@
 		{
 			"name": "ازاي تستفيد من اقوى كاش باك على المطاعم في مصر؟ دليلك خطوة بخطوة",
 			"url_name": "how-to-get-the-best-restaurant-cashback-in-egypt",
-			"image": "/image/og.png",
+			"image": "/image/og.jpg",
 			"description": "عايز تكسب فلوس وانت بتاكل؟ دليلنا هيوريك إزاي تلاقي اقوى كاش باك على وجبات المطاعم في مصر باستخدام ابلكيشن نقط.",
 			"create_time": 1724457600000
 		},
@@ -62,34 +62,6 @@
 			"image": "/image/cashback-blog.jpg",
 			"description": "اعرف ازاي تحصل على اقوى كاش باك من المطاعم الشريكة في مصر مع نقط. خدمة الكاش باك السريعة وخصومات اكل حصرية.",
 			"create_time": 1703980800000
-		},
-		{
-			"name": "افضل عروض المطاعم في مصر - وفر فلوسك واستمتع بأحلى أكلة",
-			"url_name": "afdal-3orod-almat3em-fi-masr-wafar-floosak",
-			"image": "/image/restaurant-deals.jpg",
-			"description": "اكتشف افضل عروض المطاعم في مصر مع خصومات اكل تصل لـ70%. كود خصم حصري وكوبونات شراء من المطاعم الشريكة مع نقط.",
-			"create_time": 1703894400000
-		},
-		{
-			"name": "ليه خدمة الكاش باك احسن من كود خصم عادي؟",
-			"url_name": "leh-khedmet-cash-back-ahsan-men-code-khasm-3adi",
-			"image": "/image/cashback-vs-discount.jpg",
-			"description": "اعرف الفرق بين خدمة الكاش باك ونظام كود خصم العادي. اكتشف ليه نظام الكاش باك هو الطريقة الأذكى للتوفير مع نقط.",
-			"create_time": 1703808000000
-		},
-		{
-			"name": "دليل شراء كوبون: ازاي تلاقي خصومات اكل بسهولة",
-			"url_name": "daleel-shera2-coupon-azay-telaqy-khosomat-akl",
-			"image": "/image/coupon-guide.jpg",
-			"description": "تعلم طريقة شراء كوبون بأفضل الأسعار واحصل على خصومات اكل من المطاعم الشريكة. كوبونات شراء مع نقط.",
-			"create_time": 1703721600000
-		},
-		{
-			"name": "المطاعم الشريكة مع نقط - أفضل العروض والخصومات",
-			"url_name": "almat3em-alsharika-ma3-noqat-afdal-3orod-khosomat",
-			"image": "/image/partner-restaurants.jpg",
-			"description": "اكتشف المطاعم الشريكة مع نقط واستمتع بأفضل عروض المطاعم وخصومات اكل حصرية من مئات المطاعم والكافيهات.",
-			"create_time": 1703635200000
 		}
 	],
 	"en": [
@@ -145,7 +117,7 @@
 		{
 			"name": "How to Get the Best Restaurant Cashback in Egypt: A Step-by-Step Guide",
 			"url_name": "how-to-get-the-best-restaurant-cashback-in-egypt",
-			"image": "/image/og.png",
+			"image": "/image/og.jpg",
 			"description": "Want to earn money while you eat? Our guide shows you how to find the best cashback on restaurant meals in Egypt using the Noaat app.",
 			"create_time": 1724457600000
 		},
@@ -155,13 +127,6 @@
 			"image": "/image/cashback-blog.jpg",
 			"description": "Learn how to get the best cashback from partner restaurants in Egypt with نقط. Fast cashback service and exclusive food discounts available now.",
 			"create_time": 1703980800000
-		},
-		{
-			"name": "Top Restaurant Deals in Egypt - Save Money & Enjoy Every Meal",
-			"url_name": "top-restaurant-deals-egypt-save-money",
-			"image": "/image/restaurant-deals.jpg",
-			"description": "Discover Egypt's best restaurant deals with food discounts up to 70%. Exclusive discount codes and purchase coupons from partner restaurants with نقط.",
-			"create_time": 1703894400000
 		},
 		{
 			"name": "Why Cashback Beats a Regular Discount Code",
@@ -176,13 +141,6 @@
 			"image": "/image/coupon-guide.jpg",
 			"description": "Learn how to buy coupons at the best prices and get food discounts from partner restaurants. Purchase coupons with نقط.",
 			"create_time": 1703721600000
-		},
-		{
-			"name": "Partner Restaurants with نقط - Best Offers and Discounts",
-			"url_name": "partner-restaurants-noqat-best-offers-discounts",
-			"image": "/image/partner-restaurants.jpg",
-			"description": "Discover partner restaurants with نقط and enjoy the best restaurant deals and exclusive food discounts from hundreds of restaurants and cafes.",
-			"create_time": 1703635200000
 		}
 	]
 }

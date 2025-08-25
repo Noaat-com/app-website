@@ -52,7 +52,6 @@ export default function Hero({ locale, CTALocale }) {
 					<h2 className='w-full md:w-10/12 mx-auto text-xl md:text-2xl text-base-content/80 md:text-center mb-5 md:mb-10'>{locale.h2}</h2>
 
 					<div className='w-full md:w-8/12 mx-auto flex flex-col md:flex-row md:items-center justify-between gap-y-5'>
-						<HeroIcons />
 
 						<div className='flex flex-col md:flex-row gap-2'>
 							<a
@@ -85,7 +84,7 @@ export default function Hero({ locale, CTALocale }) {
 					<Image
 						width={1024}
 						height={600}
-						src={'/og.png'}
+						src={'/image/app-features.jpg'}
 						className='hidden md:flex w-full -mt-10'
 						alt='app demo'
 					/>
