@@ -51,7 +51,7 @@ export default function Hero({ locale, CTALocale }) {
 				>
 					<h2 className='w-full md:w-10/12 mx-auto text-xl md:text-2xl text-base-content/80 md:text-center mb-5 md:mb-10'>{locale.h2}</h2>
 
-					<div className='w-full md:w-8/12 mx-auto flex flex-col md:flex-row md:items-center justify-between gap-y-5'>
+					<div className='w-full md:w-8/12 mx-auto flex flex-col md:flex-row md:items-center justify-center gap-y-5'>
 
 						<div className='flex flex-col md:flex-row gap-2'>
 							<a

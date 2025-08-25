@@ -1,15 +1,15 @@
 import { FaApple, FaGooglePlay } from 'react-icons/fa';
 import { getDictionary, defaultLocale } from '@/lib/i18n';
 import { SiteConfig } from '@/lib/config/site';
-import HowItWorksClient from './HowItWorksClient';
+import HowAppWorksClient from './HowAppWorksClient';
 
 export async function generateMetadata({ params }) {
 	const langName = params.lang || defaultLocale;
 	const dict = await getDictionary(langName);
 
 	return {
-		title: dict['HowItWorks']['title'] + ' - ' + SiteConfig[langName].name,
-		description: dict['HowItWorks']['description'],
+		title: dict['HowAppWorks']['title'] + ' - ' + SiteConfig[langName].name,
+		description: dict['HowAppWorks']['description'],
 		keywords: SiteConfig[langName].keywords,
 		authors: SiteConfig[langName].authors,
 		creator: SiteConfig[langName].creator,
@@ -20,9 +20,9 @@ export async function generateMetadata({ params }) {
 	};
 }
 
-export default async function HowItWorksPage({ params: { lang } }) {
+export default async function HowAppWorksPage({ params: { lang } }) {
     const langName = lang || defaultLocale;
     const dict = await getDictionary(langName);
 
-    return <HowItWorksClient dict={dict.HowItWorks} langName={langName} />;
+    return <HowAppWorksClient dict={dict.HowAppWorks} langName={langName} />;
 }

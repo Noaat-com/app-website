@@ -30,13 +30,18 @@ export default function AppPreview({ locale }) {
 					delay: 0.2,
 				}}
 			>
-				<Image
-					src='/image/app_preview.png'
-					alt='Noaat App Preview'
-					width={1200}
-					height={800}
-					className='w-full md:w-10/12 mx-auto'
-				/>
+				<div className='flex flex-wrap justify-center gap-4 w-full md:w-10/12 mx-auto'>
+					{[1, 2, 3, 4, 5].map((num) => (
+						<Image
+							key={num}
+							src={`/image/${num}.png`}
+							alt={`Noaat App Preview ${num}`}
+							width={220}
+							height={400}
+							className='rounded-lg shadow-md object-cover'
+						/>
+					))}
+				</div>
 			</motion.div>
 		</section>
 	);

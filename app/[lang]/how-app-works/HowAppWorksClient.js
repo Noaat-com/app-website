@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import { FaApple, FaGooglePlay } from 'react-icons/fa';
 
-export default function HowItWorksClient({ dict, langName }) {
+export default function HowAppWorksClient({ dict, langName }) {
     return (
         <main className={`container mx-auto px-5 py-10 ${langName === 'ar' ? 'rtl' : 'ltr'}`} dir={langName === 'ar' ? 'rtl' : 'ltr'}>
             {/* Hero Section */}
@@ -26,7 +26,7 @@ export default function HowItWorksClient({ dict, langName }) {
                 <h2 className="text-3xl font-bold text-center mb-12">{dict.whyNoaat.title}</h2>
                 <div className="grid md:grid-cols-3 gap-8">
                     {dict.whyNoaat.features.map((feature, index) => (
-                        <motion.div 
+                        <motion.div
                             key={index}
                             initial={{ opacity: 0, y: 30 }}
                             animate={{ opacity: 1, y: 0 }}
@@ -104,7 +104,7 @@ export default function HowItWorksClient({ dict, langName }) {
                             ))}
                         </div>
                     </div>
-                    
+
                     <div className="grid md:grid-cols-3 gap-6">
                         {dict.coupons.types.map((type, index) => (
                             <div key={index} className="bg-base-200/30 p-6 rounded-2xl text-center">
@@ -126,7 +126,7 @@ export default function HowItWorksClient({ dict, langName }) {
             >
                 <h3 className="text-2xl md:text-3xl font-bold mb-4">{dict.download.title}</h3>
                 <p className="text-lg mb-8 text-purple-100">{dict.download.description}</p>
-                
+
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a
                         href="https://apps.apple.com/eg/app/noaat/id6651818110"
@@ -143,7 +143,7 @@ export default function HowItWorksClient({ dict, langName }) {
                         {dict.download.playStore}
                     </a>
                 </div>
-                
+
                 <div className="mt-6 flex justify-center gap-8 text-sm text-purple-100">
                     <span>✓ {dict.download.features.free}</span>
                     <span>✓ {dict.download.features.realCashback}</span>
