@@ -86,36 +86,64 @@
   },
   "Faq": {
     "h2": "Got Questions?",
-    "h3": "We’ve got answers.",
+    "h3": "We've got answers.",
     "description": "Here are some of the most common questions we get about Noaat.",
     "list": [
       {
-        "question": "What is Noaat, exactly?",
-        "answer": "Noaat is a free mobile app that gives you real cashback and exclusive coupons at a huge variety of restaurants and cafes in Egypt. Just eat, upload your receipt, and save money."
+        "question": "How can I get cashback?",
+        "answer": "It's simple: buy from a partner restaurant or store, upload your receipt on the app, and after review, the cashback will be credited to your wallet."
       },
       {
-        "question": "Is this a points system?",
-        "answer": "No. We believe in real money, not confusing points. The cashback you earn is actual money (EGP) that gets added to your wallet in the app. You can use it for anything you want."
+        "question": "How long does it take to receive cashback?",
+        "answer": "Usually within minutes, but it can take up to 24-48 hours if review is needed or there is high traffic."
       },
       {
-        "question": "How long does it take to get my cashback?",
-        "answer": "It’s fast. Once you upload a clear receipt, our system typically verifies it and adds the cashback to your wallet within minutes."
+        "question": "Does cashback expire?",
+        "answer": "Yes, cashback may have an expiry period (e.g., 3 or 6 months) depending on the offer. Expiry dates are clearly shown in the wallet."
       },
       {
-        "question": "Can I use my cashback balance to buy coupons?",
-        "answer": "Absolutely! That’s the smartest way to use your balance. You can use your cashback to buy coupons for even bigger discounts, effectively doubling your savings."
+        "question": "What is required on the receipt?",
+        "answer": "The receipt must be clear, showing the restaurant/store name, date, and total amount. It must be an official tax receipt and should be uploaded the same day of purchase."
       },
       {
-        "question": "Why does Noaat need access to my location?",
-        "answer": "Noaat uses your location to show you relevant offers and restaurants near you. This helps us provide you with the best deals in your area."
+        "question": "Why might cashback be rejected?",
+        "answer": "Possible reasons include: unclear receipt, not from a partner, old receipt, expired offer, or conditions not met."
       },
       {
-        "question": "Why does Noaat need access to my camera?",
-        "answer": "Noaat needs access to your camera to allow you to scan your receipts for cashback. This is a quick and easy way to earn cashback on your purchases."
+        "question": "How can I use my cashback?",
+        "answer": "You can use it to buy new coupons in the app, which give discounts or free products at partner locations. Cash withdrawals are not available currently."
       },
       {
-        "question": "How do I create an account?",
-        "answer": "Creating an account with Noaat is simple! Just download the app, enter your phone number, and follow the prompts to receive a verification code. Once verified, you're ready to start saving."
+        "question": "What is the difference between offers and coupons?",
+        "answer": "Offers: you buy and get cashback afterward. Coupons: you purchase with cashback and get immediate discount or free product at checkout."
+      },
+      {
+        "question": "What happens if I buy a coupon but don't use it?",
+        "answer": "Coupons have an expiration date. After this date, they become invalid and the balance cannot be recovered."
+      },
+      {
+        "question": "Do I need to complete a survey after purchase?",
+        "answer": "Sometimes, a short survey is requested after using an offer or coupon. This helps improve service and may reward you with extra points."
+      },
+      {
+        "question": "Do I need internet while at the store?",
+        "answer": "No, internet is not required during purchase. You only need it to upload the receipt afterward."
+      },
+      {
+        "question": "Can I share my wallet with someone else?",
+        "answer": "No, the wallet is linked to your personal account and mobile number."
+      },
+      {
+        "question": "Can I buy offers or coupons for someone else?",
+        "answer": "Yes, you can use a coupon for someone else at checkout, but cashback always goes to your wallet."
+      },
+      {
+        "question": "How can I know which branches participate?",
+        "answer": "Each offer or coupon shows the participating branches clearly in the app before activation."
+      },
+      {
+        "question": "Is there a minimum purchase amount for cashback?",
+        "answer": "Yes, some offers have a minimum spending requirement to qualify for cashback. This is shown in the offer details."
       }
     ]
   },

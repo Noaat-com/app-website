@@ -1,6 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
-import { SiGithub } from 'react-icons/si';
+import { FaApple, FaAndroid } from 'react-icons/fa';
 
 export default function Cta({ locale, CTALocale }) {
 	return (
@@ -22,13 +22,23 @@ export default function Cta({ locale, CTALocale }) {
 
 					<h3 className='w-full md:w-10/12 mx-auto text-xl md:text-2xl text-base-content/80 md:text-center'>{locale.h3}</h3>
 
-					<a
-						title='get source code'
-						className='mt-10 btn btn-sm md:btn-md btn-base border-none hover:ring-1 ring-base-content text-base-100 hover:text-base-content bg-base-content hover:bg-base-100 rounded-full'
-						href='#'
-					>
-						<SiGithub /> {CTALocale.btn1}
-					</a>
+					<div className='flex flex-col md:flex-row gap-2 mt-10'>
+						<a
+							title='Download on the App Store'
+							className='btn btn-sm md:btn-md btn-base border-none hover:ring-1 ring-base-content text-base-100 hover:text-base-content bg-base-content hover:bg-base-100 rounded-full'
+							href='https://apps.apple.com/eg/app/noaat/id6651818110'
+						>
+							<FaApple />
+							{CTALocale.btn1}
+						</a>
+						<a
+							title='Get it on Google Play'
+							className='btn btn-sm md:btn-md btn-base rounded-full'
+							href='https://play.google.com/store/apps/details?id=com.noaatfrontend&hl=en'
+						>
+							<FaAndroid /> {CTALocale.btn2}
+						</a>
+					</div>
 				</div>
 			</motion.div>
 
