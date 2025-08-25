@@ -1,4 +1,3 @@
-import { FaApple, FaGooglePlay } from 'react-icons/fa';
 import { getDictionary, defaultLocale } from '@/lib/i18n';
 import { SiteConfig } from '@/lib/config/site';
 import HowAppWorksClient from './HowAppWorksClient';

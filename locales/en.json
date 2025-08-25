@@ -860,5 +860,201 @@
         "arabic": "Arabic Support"
       }
     }
+  },
+  "MergedAbout": {
+    "title": "About Noaat",
+    "subtitle": "Egypt's first smart cashback platform connecting customers and businesses through intelligent dining solutions",
+    "description": "Learn about our mission to transform dining experiences and business growth through technology",
+    "hero": {
+      "title": "About Noaat",
+      "subtitle": "We're not just an offers platform, we're your partner in understanding customers and growing your business"
+    },
+    "story": {
+      "title": "Our Story",
+      "content": [
+        "At Noaat, we believe that real market success starts with understanding customers deeply. That's why we created a platform that not only connects people with cashback offers and exclusive deals but also empowers businesses with the insights they need to grow. With AI-powered analytics and user feedback tools, we help our partners turn transactions into opportunities and decisions into actions.",
+        "Noaat isn't just a cashback platform — it's on your side in growth, strategy, and smarter marketing."
+      ]
+    },
+    "services": {
+      "title": "What we offer?",
+      "items": [
+        {
+          "title": "Cashback & Coupon Platform",
+          "description": "We help partners attract and retain more customers by offering targeted cashback deals and redeemable coupons. These promotions are fully manageable through our agent, allowing you to control availability, branches, and limits — all while giving users a rewarding experience."
+        },
+        {
+          "title": "Real-Time Analytics",
+          "description": "Every receipt uploaded by your customers becomes a source of valuable insight. Our system scans items, timestamps, and branches to provide you with real-time data on buying trends, peak hours, and most popular products — helping you make data-driven decisions with ease."
+        },
+        {
+          "title": "Performance Reports",
+          "description": "Get access to professional reports showing how your campaigns are performing across different branches. Identify what works, what needs improvement, and where you can maximize return on investment (ROI) with clear metrics and visual dashboards."
+        },
+        {
+          "title": "Customer Feedback Engine",
+          "description": "After submitting their receipts, users can fill out simple, customized surveys. These help you gather qualitative insights on food quality, service satisfaction, and the overall experience — turning everyday feedback into strategic improvements."
+        }
+      ]
+    },
+    "whyChoose": {
+      "title": "Why Choose Us?",
+      "description": "We believe in your success and that data driven insights can help you achieve the best results for your business, regardless of your field or target market.",
+      "benefits": [
+        {
+          "title": "Actionable Insights",
+          "description": "We provides you with valuable and actionable insights derived from user data."
+        },
+        {
+          "title": "User Understand",
+          "description": "We help you understand the users' purchasing behavior, and satisfaction levels."
+        },
+        {
+          "title": "Profit Optimization",
+          "description": "We enable you to identify trends and patterns based on user behaviors."
+        }
+      ]
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "We aim to be the strategic partner for restaurants and businesses in Egypt, helping them understand their customers better and improve their profits through advanced yet simple technological solutions"
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the leading platform in the Middle East connecting businesses with their customers, transforming data into smart decisions that drive growth and prosperity"
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        {
+          "title": "Innovation",
+          "description": "We continuously develop cutting-edge solutions that simplify complex business challenges"
+        },
+        {
+          "title": "Partnership",
+          "description": "We build lasting relationships with our partners, treating their success as our success"
+        },
+        {
+          "title": "Transparency",
+          "description": "We provide clear analytics and honest communication in all our business dealings"
+        }
+      ]
+    },
+    "forCustomers": {
+      "title": "For Customers",
+      "subtitle": "Your smartest dining companion",
+      "description": "Get real cashback and exclusive coupons at Egypt's best restaurants. Stop hunting for discount codes that don't work.",
+      "features": [
+        {
+          "title": "Real Cashback",
+          "description": "Get a percentage of your bill back in real money. No confusing points, just cash in your wallet."
+        },
+        {
+          "title": "Exclusive Coupons",
+          "description": "Get instant, massive discounts on your favorite restaurants with our exclusive coupons."
+        },
+        {
+          "title": "Always-On Offers",
+          "description": "Find special deals and promotions you won't see anywhere else, available only on Noaat."
+        }
+      ]
+    },
+    "forBusiness": {
+      "title": "For Businesses",
+      "subtitle": "Your success partner",
+      "description": "We help businesses attract new customers, understand purchasing behavior, and improve performance through precise analytics and personalized cashback.",
+      "services": [
+        {
+          "title": "Customer Analytics",
+          "description": "Transform transaction data into strategic insights with AI-powered analytics"
+        },
+        {
+          "title": "Cashback & Coupon Platform",
+          "description": "Create targeted deals that attract customers and build loyalty"
+        },
+        {
+          "title": "Performance Reports",
+          "description": "Get visual dashboards showing campaign effectiveness and customer behavior"
+        },
+        {
+          "title": "Customer Feedback",
+          "description": "Collect qualitative insights through user surveys and reviews"
+        }
+      ]
+    },
+    "packages": {
+      "title": "Our Business Packages",
+      "subtitle": "Choose the package that fits your business needs and maximize your potential",
+      "plans": [
+        {
+          "name": "Standard Package",
+          "description": "Perfect for partners starting with cashback and coupon programs",
+          "features": [
+            "Create cashback and coupon campaigns",
+            "Simple post-purchase survey system",
+            "Basic technical support",
+            "Full data privacy compliance"
+          ]
+        },
+        {
+          "name": "Premium Package",
+          "description": "For partners wanting deeper customer relationship insights",
+          "features": [
+            "All Standard features",
+            "Advanced customer behavior analytics",
+            "Customer segmentation",
+            "Priority support",
+            "External data import capability"
+          ]
+        },
+        {
+          "name": "VIP Package",
+          "description": "Designed for scalable growth with AI-powered tools",
+          "features": [
+            "All Premium features",
+            "Predictive AI analytics",
+            "Customized dashboard",
+            "Early feature access",
+            "Full Noaat API access",
+            "Personalized onboarding sessions"
+          ]
+        }
+      ]
+    },
+    "technology": {
+      "title": "Our Technologies",
+      "description": "Noaat uses AI-driven technology to analyze real-world purchase data and user feedback. When users upload receipts to claim cashback or redeem coupons, our system scans the items, verifies eligibility, and extracts insights about product demand, purchase timing, and customer preferences.",
+      "subtitle": "This combination of transaction data and real feedback helps our partners — whether retailers, service providers, or brands — understand their audience, optimize their offerings, and make smarter, data-backed business decisions.",
+      "stack": [
+        "GitHub",
+        "Slack",
+        "Kotlin",
+        "Amazon Web Services",
+        "Noaat AI"
+      ]
+    },
+    "stats": {
+      "title": "Our Impact",
+      "items": [
+        {
+          "number": "10,000+",
+          "label": "Happy Customers"
+        },
+        {
+          "number": "500+",
+          "label": "Partner Restaurants"
+        },
+        {
+          "number": "2M EGP+",
+          "label": "Cashback Distributed"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Join Noaat?",
+      "description": "Whether you're a customer looking for great deals or a business wanting to grow, we're here for you.",
+      "customerBtn": "Download App",
+      "businessBtn": "Become a Partner"
+    }
   }
 }

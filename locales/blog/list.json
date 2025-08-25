@@ -3,7 +3,7 @@
 		{
 			"name": "كل حاجة محتاج تعرفها عن مميزات تطبيق نقط الجديد",
 			"url_name": "app-features-guide-noaat-mobile-experience",
-			"image": "/image/app-features.jpg",
+			"image": "/image/app-features.svg",
 			"description": "اكتشف كل المميزات الجديدة في تطبيق نقط: الواجهة العربية، الوضع المظلم، تتبع الكاش باك، وأكتر. دليل شامل لتجربة مستخدم استثنائية.",
 			"create_time": 1735076400000
 		},
@@ -68,7 +68,7 @@
 		{
 			"name": "Everything You Need to Know About Noaat App's New Features",
 			"url_name": "app-features-guide-noaat-mobile-experience",
-			"image": "/image/app-features.jpg",
+			"image": "/image/app-features.svg",
 			"description": "Discover all the new features in Noaat app: Arabic interface, dark mode, cashback tracking, and more. Complete guide to an exceptional user experience.",
 			"create_time": 1735076400000
 		},
