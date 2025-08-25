@@ -84,7 +84,7 @@ export default function Hero({ locale, CTALocale }) {
 					<Image
 						width={1024}
 						height={600}
-						src={'/image/app-features.jpg'}
+						src={'/image/app-features.svg'}
 						className='hidden md:flex w-full -mt-10'
 						alt='app demo'
 					/>

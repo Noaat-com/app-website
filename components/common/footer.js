@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import { NavLinksList } from '@/lib/navLinksList';
+import { NavLinksListFooter } from '@/lib/navLinksList';
 import { usePathname } from 'next/navigation';
 import { defaultLocale } from '@/lib/i18n';
 import { useEffect, useState } from 'react';
@@ -18,7 +18,7 @@ export default function Footer() {
 			} else {
 				setLangName('ar'); // Default to Arabic for all other paths
 			}
-			setLinkList(NavLinksList[`LINK_${langName.toUpperCase()}`] || []);
+			setLinkList(NavLinksListFooter[`LINK_${langName.toUpperCase()}`] || []);
 		};
 		fetchLinksList();
 	}, [pathname, langName]);

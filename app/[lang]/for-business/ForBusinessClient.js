@@ -1,5 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
+import Pricing from '@/components/home/pricing';
 
 export default function ForBusinessClient({ dict, langName }) {
     return (
@@ -27,7 +28,7 @@ export default function ForBusinessClient({ dict, langName }) {
                         <h2 className="text-3xl font-bold mb-8">{dict.about.title}</h2>
                         <p className="text-xl text-base-content/80 max-w-4xl mx-auto mb-8">{dict.about.subtitle}</p>
                     </div>
-                    
+
                     <div className="grid md:grid-cols-2 gap-12 mb-16">
                         <div className="bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900/20 dark:to-blue-900/20 rounded-2xl p-8">
                             <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
@@ -81,62 +82,7 @@ export default function ForBusinessClient({ dict, langName }) {
             </motion.section>
 
             {/* Packages Section */}
-            <motion.section
-                initial={{ opacity: 0, y: 50 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.4, type: 'spring', stiffness: 100, damping: 10 }}
-                className="mb-16"
-            >
-                <div className="text-center mb-12">
-                    <h2 className="text-3xl font-bold mb-4">{dict.packages.title}</h2>
-                    <p className="text-xl text-base-content/70 max-w-3xl mx-auto">{dict.packages.subtitle}</p>
-                </div>
-
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto'>
-                    {dict.packages.plans.map((pkg, index) => (
-                        <motion.div
-                            key={index}
-                            initial={{ opacity: 0, y: 30 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.5 + (index * 0.1), type: 'spring' }}
-                            className={`relative bg-base-200/50 rounded-2xl p-8 border ${pkg.recommended ? 'border-purple-500 ring-2 ring-purple-500/20' : 'border-base-content/10'} transition-all hover:shadow-2xl hover:scale-105`}
-                        >
-                            {pkg.recommended && (
-                                <div className='absolute -top-4 left-1/2 transform -translate-x-1/2'>
-                                    <span className='bg-gradient-to-r from-purple-500 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-semibold'>
-                                        {dict.packages.recommended}
-                                    </span>
-                                </div>
-                            )}
-                            
-                            <div className='text-center mb-8'>
-                                <h3 className='text-2xl font-bold mb-2'>{pkg.name}</h3>
-                                <div className={`text-4xl font-bold bg-gradient-to-r ${pkg.color} bg-clip-text text-transparent mb-2`}>
-                                    {pkg.price}
-                                </div>
-                                <p className='text-base-content/60'>{pkg.description}</p>
-                            </div>
-
-                            <ul className='space-y-4 mb-8'>
-                                {pkg.features.map((feature, idx) => (
-                                    <li key={idx} className='flex items-start gap-3'>
-                                        <div className={`w-5 h-5 rounded-full bg-gradient-to-r ${pkg.color} flex items-center justify-center mt-0.5`}>
-                                            <svg className='w-3 h-3 text-white' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-                                                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M5 13l4 4L19 7' />
-                                            </svg>
-                                        </div>
-                                        <span className='text-base-content/80'>{feature}</span>
-                                    </li>
-                                ))}
-                            </ul>
-
-                            <button className={`w-full py-3 px-6 rounded-xl bg-gradient-to-r ${pkg.color} text-white font-semibold hover:shadow-lg transition-all`}>
-                                {dict.packages.cta}
-                            </button>
-                        </motion.div>
-                    ))}
-                </div>
-            </motion.section>
+            <Pricing locale={dict.packages} langName={langName} />
 
             {/* Contact CTA */}
             <motion.section

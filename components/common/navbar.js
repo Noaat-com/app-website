@@ -7,7 +7,7 @@ import LangSwitch from './langSwitch';
 
 import { usePathname } from 'next/navigation';
 import { defaultLocale } from '@/lib/i18n';
-import { NavLinksList } from '@/lib/navLinksList';
+import { NavLinksListNavbar } from '@/lib/navLinksList';
 
 export default function Navbar({ lang }) {
 	const pathname = usePathname();
@@ -21,7 +21,7 @@ export default function Navbar({ lang }) {
 		} else {
 			setLangName('ar'); // Default to Arabic for all other paths
 		}
-		setLinkList(NavLinksList[`LINK_${langName.toUpperCase()}`] || []);
+		setLinkList(NavLinksListNavbar[`LINK_${langName.toUpperCase()}`] || []);
 	}, [pathname, langName]);
 
 	return (

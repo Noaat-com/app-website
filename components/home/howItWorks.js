@@ -29,7 +29,9 @@ export default function HowItWorks({ locale }) {
 				>
 					<div className='card bg-base-200/50'>
 						<div className='card-body items-center text-center'>
-							<div className='w-24 h-24 bg-base-300 rounded-full mb-4'></div>
+							<div className='w-24 h-24 bg-base-300 rounded-full mb-4 flex items-center justify-center text-5xl font-bold'>
+                1
+              </div>
 							<h3 className='card-title'>{locale.step1_title}</h3>
 							<p>{locale.step1_desc}</p>
 						</div>
@@ -45,7 +47,9 @@ export default function HowItWorks({ locale }) {
 				>
 					<div className='card bg-base-200/50'>
 						<div className='card-body items-center text-center'>
-							<div className='w-24 h-24 bg-base-300 rounded-full mb-4'></div>
+							<div className='w-24 h-24 bg-base-300 rounded-full mb-4 flex items-center justify-center text-5xl font-bold'>
+                2
+              </div>
 							<h3 className='card-title'>{locale.step2_title}</h3>
 							<p>{locale.step2_desc}</p>
 						</div>
@@ -61,7 +65,9 @@ export default function HowItWorks({ locale }) {
 				>
 					<div className='card bg-base-200/50'>
 						<div className='card-body items-center text-center'>
-							<div className='w-24 h-24 bg-base-300 rounded-full mb-4'></div>
+							<div className='w-24 h-24 bg-base-300 rounded-full mb-4 flex items-center justify-center text-5xl font-bold'>
+                3
+              </div>
 							<h3 className='card-title'>{locale.step3_title}</h3>
 							<p>{locale.step3_desc}</p>
 						</div>

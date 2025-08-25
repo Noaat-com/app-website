@@ -1,828 +1,864 @@
 {
-	"Hero": {
-		"h1": "Eat, Save, Repeat.",
-		"h2": "Your favorite food now comes with a side of cash. Noaat is the simplest way to get real cashback and exclusive coupons at Egypt's best restaurants.",
-		"description": "Stop hunting for discount codes that don't work. With Noaat, you save money effortlessly every time you dine out.",
-		"business_tagline": "For Businesses: We're not just an offers platform, we're your partner in understanding customers and growing your business",
-		"cta": "Download Now & Get 100 EGP Bonus",
-		"business_cta": "Join Our Partners"
-	},
-	"Feature": {
-		"h2": "One App. All the Savings.",
-		"h3": "We don’t just give you one way to save, we give you all of them.",
-		"list": [
-			{
-				"title": "Real Cashback",
-				"description": "Get a percentage of your bill back in real money. No confusing points, just cash in your wallet to spend on whatever you want.",
-				"icon": "FaMoneyBillWave"
-			},
-			{
-				"title": "Exclusive Coupons",
-				"description": "Get instant, massive discounts on your favorite restaurants with our exclusive coupons. Buy them, use them, and save immediately.",
-				"icon": "FaTicketAlt"
-			},
-			{
-				"title": "Always-On Offers",
-				"description": "Beyond cashback and coupons, find special deals and promotions you won’t see anywhere else, available only on Noaat.",
-				"icon": "FaStar"
-			}
-		]
-	},
-	"AppPreview": {
-		"h2": "See The App in Action",
-		"h3": "A beautiful, simple, and powerful app to manage your savings."
-	},
-	"HowItWorks": {
-		"h2": "How to Get the Most Out of Noaat",
-		"step1_title": "Discover Offers Around You",
-		"step1_desc": "Open the Noaat app and browse hundreds of exclusive offers, from cashback rewards to instant discount codes.",
-		"step2_title": "Earn Cash Back",
-		"step2_desc": "Enjoy your meal, and to get your cashback, just snap a picture of your receipt and upload it directly in the app.",
-		"step3_title": "Redeem Coupons",
-		"step3_desc": "Your cashback is added to your Noaat wallet instantly! Use your balance to buy coupons for even bigger discounts."
-	},
-	"Categories": {
-		"h2": "Restaurant Deals For Every Taste",
-		"fastfood_title": "Fast Food & Pizza",
-		"fastfood_desc": "Food discounts from popular fast food chains and pizza restaurants.",
-		"egyptian_title": "Traditional Egyptian",
-		"egyptian_desc": "Authentic Egyptian restaurant offers featuring the best local dishes.",
-		"cafes_title": "Cafes & Desserts",
-		"cafes_desc": "Discount codes for coffee and desserts from premium cafes.",
-		"finedining_title": "Fine Dining",
-		"finedining_desc": "Purchase coupons for luxury restaurants at the best prices."
-	},
-	"AppPromotion": {
-		"h2": "Your Smartest Dining Companion is Here",
-		"description": "Take control of your dining budget. With the Noaat app, you can track your savings, discover new restaurants, and manage your cashback and coupons effortlessly.",
-		"benefit1": "Real-time offer notifications.",
-		"benefit2": "Secure in-app wallet.",
-		"benefit3": "Easy receipt scanning.",
-		"benefit4": "Track your savings history."
-	},
-	"Testimonial": {
-		"h2": "Don’t just take our word for it.",
-		"h3": "Here’s what real users are saying.",
-		"list": [
-			{
-				"nickname": "Ahmed M.",
-				"description": "Marketing Manager",
-				"avatar": "/image/avatar.png",
-				"content": "This app is a game-changer. I got over 500 EGP in cashback in my first month. The cashback system is so much better than regular discounts."
-			},
-			{
-				"nickname": "Sara K.",
-				"description": "University Student",
-				"avatar": "/image/avatar.png",
-				"content": "I love how easy it is to find restaurant deals. I used a coupon for a family dinner and saved a fortune. Highly recommended!"
-			},
-			{
-				"nickname": "Omar F.",
-				"description": "Engineer",
-				"avatar": "/image/avatar.png",
-				"content": "Finally, an app that understands what we need. Great offers at the most famous restaurants in Egypt. It’s my go-to app before going out."
-			}
-		]
-	},
-	"Faq": {
-		"h2": "Got Questions?",
-		"h3": "We’ve got answers.",
-		"description": "Here are some of the most common questions we get about Noaat.",
-		"list": [
-			{
-				"question": "What is Noaat, exactly?",
-				"answer": "Noaat is a free mobile app that gives you real cashback and exclusive coupons at a huge variety of restaurants and cafes in Egypt. Just eat, upload your receipt, and save money."
-			},
-			{
-				"question": "Is this a points system?",
-				"answer": "No. We believe in real money, not confusing points. The cashback you earn is actual money (EGP) that gets added to your wallet in the app. You can use it for anything you want."
-			},
-			{
-				"question": "How long does it take to get my cashback?",
-				"answer": "It’s fast. Once you upload a clear receipt, our system typically verifies it and adds the cashback to your wallet within minutes."
-			},
-			{
-				"question": "Can I use my cashback balance to buy coupons?",
-				"answer": "Absolutely! That’s the smartest way to use your balance. You can use your cashback to buy coupons for even bigger discounts, effectively doubling your savings."
-			},
-			{
-				"question": "Why does Noaat need access to my location?",
-				"answer": "Noaat uses your location to show you relevant offers and restaurants near you. This helps us provide you with the best deals in your area."
-			},
-			{
-				"question": "Why does Noaat need access to my camera?",
-				"answer": "Noaat needs access to your camera to allow you to scan your receipts for cashback. This is a quick and easy way to earn cashback on your purchases."
-			},
-			{
-				"question": "How do I create an account?",
-				"answer": "Creating an account with Noaat is simple! Just download the app, enter your phone number, and follow the prompts to receive a verification code. Once verified, you're ready to start saving."
-			}
-		]
-	},
-	"CTA": {
-		"h2": "Start Saving With Noaat Today",
-		"h3": "Download the app and enjoy the strongest cashback and best restaurant deals in Egypt!",
-		"description": "Join thousands of users who save with Noaat every day."
-	},
-	"CTAButton": {
-		"btn1": "Download for iOS",
-		"btn2": "Download for Android",
-		"btn3": "Browse Deals",
-		"btn4": "Learn More"
-	},
-	"ForBusiness": {
-		"title": "Your Success Partner",
-		"subtitle": "Noaat is not just an offers app, we are your partner in expansion, understanding, and continuous improvement",
-		"description": "Learn how Noaat helps your business attract new customers, understand purchase behavior, and improve performance through precise analytics and personalized cashback",
-		"about": {
-			"title": "About Us",
-			"subtitle": "Noaat is a smart platform that helps partners attract new customers, understand purchasing behavior, and improve performance through precise analytics and personalized cashback",
-			"mission": {
-				"title": "Our Mission",
-				"description": "We aim to be the strategic partner for restaurants and businesses in Egypt, helping them understand their customers better and improve their profits through advanced yet simple technological solutions"
-			},
-			"vision": {
-				"title": "Our Vision",
-				"description": "To be the leading platform in the Middle East connecting businesses with their customers, transforming data into smart decisions that drive growth and prosperity"
-			},
-			"services": {
-				"title": "Our Partner Services",
-				"items": [
-					{
-						"icon": "⭐",
-						"title": "Customer Reviews",
-						"description": "Collect genuine feedback on product quality, service, and cleanliness"
-					},
-					{
-						"icon": "📊",
-						"title": "Detailed Reports",
-						"description": "Analyze offer performance across all branches"
-					},
-					{
-						"icon": "🔍",
-						"title": "Real-time Analytics",
-						"description": "Transform customer invoices into actionable insights"
-					},
-					{
-						"icon": "🎯",
-						"title": "Flexible System",
-						"description": "Customized cashback and coupons to attract customers"
-					}
-				]
-			},
-			"stats": {
-				"title": "Our Numbers Speak",
-				"items": [
-					{
-						"number": "500+",
-						"label": "Partner Restaurants"
-					},
-					{
-						"number": "50,000+",
-						"label": "Active Customers"
-					},
-					{
-						"number": "2M+",
-						"label": "EGP Cashback"
-					},
-					{
-						"number": "95%",
-						"label": "Partner Satisfaction"
-					}
-				]
-			}
-		},
-		"packages": {
-			"title": "Our Partner Packages",
-			"subtitle": "Choose the package that suits your business needs and get the most out of the Noaat platform",
-			"recommended": "Most Popular",
-			"cta": "Get Started",
-			"plans": [
-				{
-					"name": "Basic Package",
-					"price": "Free",
-					"description": "Perfect for small and emerging restaurants",
-					"features": [
-						"Up to 100 invoices per month",
-						"Basic cashback system",
-						"Monthly reports",
-						"Email support",
-						"Single branch management"
-					],
-					"recommended": false,
-					"color": "from-blue-500 to-blue-600"
-				},
-				{
-					"name": "Professional Package",
-					"price": "499 EGP/month",
-					"description": "Best suited for medium-sized restaurants",
-					"features": [
-						"Unlimited invoices",
-						"Advanced cashback and coupons",
-						"Detailed reports and analytics",
-						"24/7 phone support",
-						"Manage up to 5 branches",
-						"Customer reviews",
-						"Instant notifications"
-					],
-					"recommended": true,
-					"color": "from-purple-500 to-purple-600"
-				},
-				{
-					"name": "Enterprise Package",
-					"price": "Custom",
-					"description": "For large chains and corporations",
-					"features": [
-						"Custom solutions",
-						"POS system integration",
-						"Dedicated account manager",
-						"Team training",
-						"Unlimited branches",
-						"Custom API",
-						"Advanced AI-powered analytics"
-					],
-					"recommended": false,
-					"color": "from-amber-500 to-amber-600"
-				}
-			]
-		},
-		"contact": {
-			"title": "Ready to Start Your Journey with Us?",
-			"description": "Join hundreds of restaurants that benefit from the Noaat platform every day. Our team is ready to help you choose the right package",
-			"cta": "Contact for Free Consultation",
-			"demo": "Book a Demo"
-		}
-	},
-	"Blog": {
-		"title": "Noaat Blog",
-		"description": "Learn about the latest saving tips and best restaurant offers",
-		"side1": "Saving Tips",
-		"side3": "App News"
-	},
-	"Footer": {
-		"company": "Noaat - Egypt's Smart Food Deals & Cashback App.",
-		"links_title": "Quick Links",
-		"link1": "How It Works",
-		"link2": "Coupons",
-		"link3": "Blog",
-		"link4": "Download App",
-		"categories_title": "Categories",
-		"cat1": "Restaurant Deals in Egypt",
-		"cat2": "Food Discounts",
-		"cat3": "Restaurant Discount Codes",
-		"cat4": "Partner Restaurants",
-		"social_title": "Follow Us",
-		"copyright": "© 2025 Noaat. All Rights Reserved."
-	},
-	"HowCashbackWorksPage": {
-		"h1": "The Easiest Cashback System in Egypt",
-		"metaDescription": "Learn how Noaat's cashback system works. Upload your restaurant receipt and earn real money in your wallet. Get the strongest cashback on food in Egypt.",
-		"intro": "Say goodbye to complicated points and confusing rewards. Noaat offers the most straightforward cashback system in Egypt. You eat, you save, you get real money back. It’s that simple.",
-		"h2_how_to_earn": "How to Earn Cashback with Noaat",
-		"step1": "Find a Cashback Offer: Open the app and look for restaurants with a \"Cashback\" badge.",
-		"step2": "Dine and Pay: Go to the restaurant, enjoy your meal as usual, and ask for the bill.",
-		"step3": "Scan Your Receipt: Open the Noaat app, tap the 'Upload Receipt' button, and take a clear picture of your entire receipt.",
-		"step4": "Get Paid: Our system will verify your receipt instantly. Once approved, the cashback amount is added directly to your Noaat wallet.",
-		"h2_your_wallet": "Your Wallet, Your Rules",
-		"wallet_desc": "Once you have money in your Noaat wallet, you can use your balance to buy coupons for even bigger discounts or transfer your savings.",
-		"h2_why_better": "Why is Our Cashback Better?",
-		"benefit1": "Real Money, Not Points: We give you actual EGP, not points that expire or have limited use.",
-		"benefit2": "No Restrictions: Use your cashback at any partner restaurant, for any offer.",
-		"benefit3": "Transparent and Fast: See your earnings in real-time. What you see is what you get.",
-		"cta": "Browse Cashback Offers Now & Download the App!"
-	},
-	"CouponsOffersPage": {
-		"h1": "Instant Discounts with Restaurant Coupons",
-		"metaDescription": "Find the best food discounts in Egypt with Noaat coupons. Learn how to buy and activate a discount code for instant savings.",
-		"intro": "Want to save money right now? Our coupons and offers are your ticket to instant food discounts. Noaat partners with the most famous restaurants in Egypt to bring you exclusive deals.",
-		"h2_how_to_use": "How to Use Noaat Coupons",
-		"step1": "Browse Coupons: Open the app and go to the \"Coupons\" section to find the perfect discount code.",
-		"step2": "Buy the Coupon: Select the offer you want. You can buy a coupon using your credit card or your Noaat wallet balance.",
-		"step3": "Activate at the Restaurant: When you are at the restaurant and ready to pay, simply show the coupon on your app to the cashier.",
-		"step4": "Save Instantly: The discount is applied to your bill on the spot.",
-		"h2_types_of_offers": "Types of Offers You’ll Find",
-		"offer1": "Percentage Discounts: Get 10%, 25%, or even 50% off your total bill.",
-		"offer2": "Buy-One-Get-One (BOGO): Perfect for sharing a meal with a friend.",
-		"offer3": "Set Menus: Enjoy a full meal for a special, fixed price.",
-		"cta": "Find Your Perfect Coupon Now!"
-	},
-	"WhyNoaatPage": {
-		"h1": "The Smartest Way to Dine and Save",
-		"metaDescription": "Why choose Noaat? Get the best of both worlds: instant coupons and long-term cashback. The only food deals app you need.",
-		"intro": "In a world of endless apps, Noaat stands out by being simple, powerful, and built for you. We are your partner in saving money while enjoying the food you love.",
-		"h2_one_app": "One App for Everything",
-		"one_app_desc": "Why choose between a discount code and a cashback offer? With Noaat, you get both.",
-		"h2_designed_for_egypt": "Designed for Egypt",
-		"designed_for_egypt_desc": "We focus exclusively on restaurant deals in Egypt, bringing you the best restaurant deals that matter to you.",
-		"h2_honest_savings": "Honest, Transparent Savings",
-		"honest_savings_desc": "We believe in real value. Our cashback system gives you real money, and our coupons provide real, instant discounts.",
-		"cta": "Join Thousands of Smart Diners Today!"
-	},
-	"Packages": {
-		"title": "Our Business Packages",
-		"subtitle": "Choose the package that fits your business needs and maximize your potential with Noaat platform",
-		"description": "We're not just an offers platform, we're your partner in understanding customers and growing your business",
-		"recommended": "Most Popular",
-		"cta": "Get Started",
-		"basic": {
-			"name": "Basic Package",
-			"price": "Start Free",
-			"description": "Perfect for new businesses wanting to explore cashback and coupon programs",
-			"features": [
-				"Create cashback and coupon offers",
-				"Simple customer survey system",
-				"Basic technical support",
-				"Customer data protection",
-				"Basic performance reports"
-			]
-		},
-		"premium": {
-			"name": "Premium Package",
-			"price": "Contact Us",
-			"description": "For companies seeking deeper customer relationship insights and advanced analytics",
-			"features": [
-				"All Basic Package features",
-				"Advanced customer behavior analytics",
-				"Customer segmentation capabilities",
-				"Priority technical support",
-				"External data import",
-				"Detailed custom reports"
-			]
-		},
-		"vip": {
-			"name": "VIP Package",
-			"price": "Custom Solutions",
-			"description": "For large businesses needing strategic growth with AI-powered tools",
-			"features": [
-				"All Premium Package features",
-				"AI-powered predictive analytics",
-				"Fully customized dashboard",
-				"Early access to new features",
-				"Full API access for integration",
-				"Personal training and periodic coaching"
-			]
-		},
-		"contact": {
-			"title": "Need a Custom Solution?",
-			"description": "Contact us to see how we can help grow your business with Noaat",
-			"cta": "Contact Us"
-		}
-	},
-	"Contact": {
-		"title": "Contact Us",
-		"subtitle": "Have a question or want to become a partner? We're here to help you",
-		"description": "Get in touch with the Noaat team and we'll help with all your needs",
-		"info": {
-			"title": "Contact Information",
-			"email": {
-				"title": "Email Address",
-				"value": "info@noaat.com"
-			},
-			"phone": {
-				"title": "Phone Number",
-				"value": "+20 10 1234 5678"
-			},
-			"hours": {
-				"title": "Business Hours",
-				"value": "Sunday - Thursday: 9 AM - 6 PM"
-			}
-		},
-		"business": {
-			"title": "For Businesses & Restaurants",
-			"description": "Want to join our partner network and benefit from our advanced solutions? Contact us and we'll explain how Noaat can help grow your business",
-			"cta": "Join Our Partners"
-		},
-		"form": {
-			"title": "Send us a Message",
-			"name": "Name",
-			"namePlaceholder": "Enter your name",
-			"email": "Email",
-			"emailPlaceholder": "your@email.com",
-			"subject": "Subject",
-			"subjectPlaceholder": "What would you like to talk about?",
-			"message": "Message",
-			"messagePlaceholder": "Write your message here...",
-			"submit": "Send Message"
-		}
-	},
-	"FAQ": {
-		"title": "Frequently Asked Questions",
-		"subtitle": "Everything you need to know about Noaat for customers and partners",
-		"description": "Answers to the most common questions about Noaat",
-		"partners": {
-			"title": "Partner Questions",
-			"items": [
-				{
-					"question": "What are the benefits of using Noaat for my business?",
-					"answer": "Noaat will help you attract new customers, understand their purchasing behavior, and improve your business performance through precise analytics and personalized cashback for customers."
-				},
-				{
-					"question": "How does the cashback system work?",
-					"answer": "The customer makes a purchase from you, uploads the receipt to the app, and we review it and give them cashback according to the percentage we agreed upon. You also get detailed analytics about the process."
-				},
-				{
-					"question": "Do I need to change my POS system?",
-					"answer": "Not at all, you don't need to change anything in your current system. The customer just uploads the regular receipt you print and that's it."
-				},
-				{
-					"question": "Can I control which branches the offer applies to?",
-					"answer": "Yes, you can choose specific branches or all branches for the offer to work in, and you can change this anytime."
-				},
-				{
-					"question": "How can I track offer performance?",
-					"answer": "You'll get detailed reports telling you the number of customers who used the offer, total sales, and customer behavior analytics."
-				},
-				{
-					"question": "Can I modify or stop the offer?",
-					"answer": "Absolutely, you can modify the offer details or stop it completely anytime through the control panel."
-				},
-				{
-					"question": "How does billing and payment work?",
-					"answer": "We work with a transparent system, billing you based on actual completed transactions and providing you with a detailed monthly invoice."
-				}
-			]
-		},
-		"customers": {
-			"title": "Customer Questions",
-			"items": [
-				{
-					"question": "How do I get cashback?",
-					"answer": "Very simple: eat at a partner restaurant, pay normally, take a photo of the receipt and upload it to the app, and you'll get cashback in your wallet."
-				},
-				{
-					"question": "How long does cashback take to arrive?",
-					"answer": "Usually it arrives within minutes of uploading the receipt, maximum 24 hours."
-				},
-				{
-					"question": "How can I use my cashback?",
-					"answer": "You can use it to buy new coupons with higher discounts, or withdraw it as real money according to the required minimum amount."
-				},
-				{
-					"question": "What's required in the receipt?",
-					"answer": "The receipt must be clear, showing the restaurant name, date, and total amount. It must be an official tax receipt."
-				},
-				{
-					"question": "Why was my cashback rejected?",
-					"answer": "It might be rejected if the receipt isn't clear, not from a partner restaurant, was used before, or doesn't match the offer conditions."
-				},
-				{
-					"question": "Does cashback expire?",
-					"answer": "Cashback in your wallet doesn't expire, but the offers themselves might have expiration dates."
-				},
-				{
-					"question": "What's the difference between offers and coupons?",
-					"answer": "Offers give you cashback after purchase, while coupons give you instant discount at time of purchase. Both are useful!"
-				},
-				{
-					"question": "Do I need internet during purchase?",
-					"answer": "No, you only need internet to upload the receipt later. You don't need internet during the actual purchase."
-				}
-			]
-		},
-		"contact": {
-			"title": "Didn't find what you're looking for?",
-			"description": "If you have another question or need help, don't hesitate to contact us",
-			"cta": "Contact Us"
-		}
-	},
-	"Terms": {
-		"title": "Terms and Conditions",
-		"subtitle": "We are committed to protecting your rights and ensuring a safe and excellent experience",
-		"description": "Learn about the terms and conditions for using the Noaat app and platform",
-		"lastUpdated": "Last updated: August 24, 2025",
-		"sections": [
-			{
-				"title": "Definitions and Terms",
-				"content": [
-					"'Noaat' refers to the Noaat app, website, and all related services.",
-					"'User' is any person using the app or website, whether as a customer or business partner.",
-					"'Partner' is any restaurant or business establishment registered on the Noaat platform to offer deals and discounts.",
-					"'Cashback' is the monetary amount earned by customers after completing a qualifying purchase through the app."
-				]
-			},
-			{
-				"title": "Acceptance of Terms",
-				"content": [
-					"By using the Noaat app, you agree to all the terms and conditions stated here.",
-					"If you do not agree to any of these terms, you must stop using the service immediately.",
-					"We reserve the right to modify these terms at any time, and you will be notified of any important changes."
-				]
-			},
-			{
-				"title": "App Usage",
-				"content": [
-					"You must be at least 16 years old to use the app, or have parental consent.",
-					"Using the app for any illegal purpose or prohibited under these terms is forbidden.",
-					"You must provide accurate and truthful information when registering and update it when necessary.",
-					"You are responsible for keeping your account information secure and not sharing it with others."
-				]
-			},
-			{
-				"title": "Cashback System",
-				"content": [
-					"Cashback is calculated according to each offer's terms and predetermined discount percentage.",
-					"You must upload a valid and clear tax receipt from a partner restaurant to receive cashback.",
-					"We reserve the right to review and reject any cashback request that doesn't comply with the terms.",
-					"Cashback cannot be converted to cash except according to the minimum threshold and conditions specified in the app."
-				]
-			},
-			{
-				"title": "Partnerships and Offers",
-				"content": [
-					"All offers and discounts are available according to each partner's terms and for a limited time.",
-					"Offers may vary from branch to branch and from time to time without prior notice.",
-					"Noaat is not responsible for food quality or service provided by partners, we only facilitate access to offers.",
-					"In case of a dispute with a partner, we will do our best to help resolve the issue."
-				]
-			},
-			{
-				"title": "Privacy and Data Protection",
-				"content": [
-					"We are committed to protecting your privacy and personal data according to our Privacy Policy.",
-					"We may use your data to improve the service and provide personalized offers.",
-					"We will not share your data with third parties except in cases specified in the Privacy Policy.",
-					"You have the right to request deletion or modification of your data at any time by contacting us."
-				]
-			},
-			{
-				"title": "Responsibilities and Warranties",
-				"content": [
-					"Noaat is not responsible for any direct or indirect damages that may result from using the app.",
-					"We do our best to ensure information accuracy, but we don't guarantee it's completely error-free.",
-					"You are responsible for using the app correctly and legally.",
-					"In case of technical issues, we will work to resolve them as quickly as possible."
-				]
-			},
-			{
-				"title": "Service Termination",
-				"content": [
-					"You may close your account at any time through the app settings.",
-					"We reserve the right to suspend or terminate your account in case of violation of these terms.",
-					"Upon account termination, some data may be retained according to our legal policies.",
-					"Any accumulated cashback will be available for use until the account closure date."
-				]
-			}
-		],
-		"contact": {
-			"title": "Need Additional Clarification?",
-			"description": "If you have any questions about the terms and conditions, our legal team is ready to help",
-			"cta": "Contact Legal Team"
-		}
-	},
-	"Privacy": {
-		"title": "Privacy Policy",
-		"subtitle": "Your privacy matters to us, and we are committed to protecting your personal data",
-		"description": "Learn how we collect, use, and protect your data in the Noaat app",
-		"lastUpdated": "Last updated: August 24, 2025",
-		"sections": [
-			{
-				"title": "Information We Collect",
-				"content": [
-					"We collect basic information needed to provide you excellent service such as your name, phone number, and email.",
-					"Usage data like which restaurants you visit and what types of offers you prefer to give you better suggestions.",
-					"Device and location information (if you allow) to help you find the nearest restaurants.",
-					"Receipt photos you upload so we can verify your cashback eligibility."
-				]
-			},
-			{
-				"title": "How We Use Your Data",
-				"content": [
-					"To provide you cashback service and verify the validity of transactions.",
-					"To send you notifications about new offers and cashback you've received.",
-					"To improve the service and better understand your needs to develop the app.",
-					"To communicate with you if there are any issues or inquiries.",
-					"To analyze data to understand user behavior and develop better services."
-				]
-			},
-			{
-				"title": "Information Sharing",
-				"content": [
-					"We don't share your personal data with anyone except in the cases specified here.",
-					"We share basic data with our restaurant partners only so they can verify offers.",
-					"We may share aggregated and non-personal data with partners for analytical purposes.",
-					"In case of legal request from official authorities, we will comply with Egyptian law.",
-					"With service companies that help us operate the app, but with strong protection guarantees."
-				]
-			},
-			{
-				"title": "Data Protection",
-				"content": [
-					"We use the strongest encryption methods to protect your data during transfer and storage.",
-					"Our servers are protected with the highest security standards and protection from breaches.",
-					"Employees who handle data are trained in privacy and have signed confidentiality agreements.",
-					"We regularly review and update protection systems to ensure maximum security.",
-					"In case of any security incident, we will notify you immediately and take all required measures."
-				]
-			},
-			{
-				"title": "Your Data Rights",
-				"content": [
-					"You can view and update your personal data at any time through app settings.",
-					"You can request permanent deletion of your account and data, which we'll do within 30 days.",
-					"You can request a copy of all your data we have in an easily readable format.",
-					"You can object to using your data for certain purposes like personalized advertising.",
-					"You can request correction of any incorrect data we have about you."
-				]
-			},
-			{
-				"title": "Cookies",
-				"content": [
-					"We use cookies to remember your preferences and improve your app experience.",
-					"These cookies help us understand how you use the app so we can develop it further.",
-					"You can control or block cookies through your browser settings.",
-					"Some cookies are essential for the app to function and it cannot work without them."
-				]
-			},
-			{
-				"title": "Children's Privacy",
-				"content": [
-					"The app is not intended for children under 16 years old.",
-					"We do not knowingly collect personal information from children.",
-					"If we discover a child has used the app, we will delete their data immediately.",
-					"Parents are responsible for monitoring their children's internet usage."
-				]
-			},
-			{
-				"title": "Policy Updates",
-				"content": [
-					"We may update this privacy policy from time to time to improve it or comply with new laws.",
-					"Any important updates will be notified to you in the app or via email.",
-					"We recommend reviewing the privacy policy periodically to stay informed of updates.",
-					"Your continued use of the app after updates means you agree to the new policy."
-				]
-			}
-		],
-		"contact": {
-			"title": "Questions About Your Privacy?",
-			"description": "If you have any inquiries about the privacy policy or want to control your data",
-			"cta": "Contact Privacy Team"
-		}
-	},
-	"About": {
-		"title": "About Us",
-		"subtitle": "Noaat is Egypt's first cashback platform aimed at providing the best dining experience at the lowest cost",
-		"description": "Learn about Noaat's story and how we started changing the way people dine in Egypt",
-		"story": {
-			"title": "Our Story",
-			"content": [
-				"The idea of Noaat began from a real need we all faced - the desire to eat good food from our favorite restaurants, but at a lower cost and in a smart way.",
-				"In 2024, we decided to change the rules of the game in Egypt and provide an innovative solution that makes every meal you eat give you money back, not just a one-time discount.",
-				"Today, Noaat has become the first destination for Egyptians who want to eat the best food for less money, while building real credit from every meal.",
-				"We're not just a discount app, we're your partner in the food journey, and our goal is to make every pound you spend return greater value to you."
-			]
-		},
-		"mission": {
-			"title": "Our Mission",
-			"description": "We aim to make the dining experience in Egypt smarter and more economical through an innovative platform that connects restaurants and customers in a way that benefits everyone."
-		},
-		"vision": {
-			"title": "Our Vision",
-			"description": "To be the leading food cashback platform in Egypt and the Middle East, helping millions of people save money and experience the best restaurants."
-		},
-		"values": {
-			"title": "Our Values",
-			"items": [
-				{
-					"icon": "🤝",
-					"title": "Transparency",
-					"description": "We believe in complete clarity in all our dealings and ensure there are no hidden fees or complex terms"
-				},
-				{
-					"icon": "⚡",
-					"title": "Speed and Efficiency",
-					"description": "We strive to provide fast and reliable service that makes your experience with Noaat smooth and comfortable"
-				},
-				{
-					"icon": "💡",
-					"title": "Continuous Innovation",
-					"description": "We continuously develop our products and services to provide innovative solutions that meet our customers' needs"
-				}
-			]
-		},
-		"stats": {
-			"title": "Our Achievements in Numbers",
-			"items": [
-				{
-					"number": "50,000+",
-					"label": "Happy Customers"
-				},
-				{
-					"number": "500+",
-					"label": "Partner Restaurants"
-				},
-				{
-					"number": "2M+",
-					"label": "EGP Cashback Saved"
-				}
-			]
-		},
-		"cta": {
-			"title": "Join the Noaat Family",
-			"description": "Whether you're a restaurant wanting to increase sales or a customer wanting to save money, Noaat is the right place",
-			"partnersBtn": "Join as Partner",
-			"downloadBtn": "Download App Now"
-		}
-	},
-	"HowAppWorks": {
-		"title": "Noaat App",
-		"subtitle": "The smartest way to eat and save money. Everything you need in one app: instant coupons and real cashback",
-		"description": "Learn how the Noaat app works and enjoy the best restaurant deals and cashback in Egypt",
-		"whyNoaat": {
-			"title": "Why Noaat?",
-			"features": [
-				{
-					"icon": "📱",
-					"title": "Everything in One App",
-					"description": "Why choose between discount codes and cashback offers? With Noaat, you have both in one place."
-				},
-				{
-					"icon": "🇪🇬",
-					"title": "Made for Egypt",
-					"description": "We focus entirely on restaurant offers in Egypt. We bring you the best restaurant deals that matter to you."
-				},
-				{
-					"icon": "💰",
-					"title": "Real and Transparent Savings",
-					"description": "Our cashback system gives you real money, and coupons provide instant and genuine discounts."
-				}
-			]
-		},
-		"howCashback": {
-			"title": "How to Earn Cashback with Noaat",
-			"howToEarn": {
-				"title": "Simple Steps:",
-				"steps": [
-					"Find cashback offers in the app",
-					"Order and pay at the restaurant normally",
-					"Take a photo of the receipt and upload it",
-					"Receive your money in your wallet instantly"
-				]
-			},
-			"benefits": {
-				"title": "Why Our Service is Better?",
-				"list": [
-					"Real money, not fake points",
-					"No restrictions on usage",
-					"Transparent and fast, see your earnings instantly",
-					"Highest cashback rates in Egypt"
-				]
-			},
-			"wallet": {
-				"title": "Your Wallet, Your Decision",
-				"description": "Once you have money in your Noaat wallet, you can use your balance to buy coupons with bigger discounts or save your money."
-			}
-		},
-		"coupons": {
-			"title": "Instant Discounts with Coupons",
-			"howToUse": {
-				"title": "How to Use Noaat Coupons:",
-				"steps": [
-					{
-						"title": "Browse Coupons",
-						"description": "Open the coupons section and find the best deal for you"
-					},
-					{
-						"title": "Buy the Coupon",
-						"description": "Pay with your card or wallet balance"
-					},
-					{
-						"title": "Activate at Restaurant",
-						"description": "Show the coupon to the cashier from the app"
-					},
-					{
-						"title": "Save Instantly",
-						"description": "The discount applies to your bill immediately"
-					}
-				]
-			},
-			"types": [
-				{
-					"icon": "💸",
-					"title": "Percentage Discounts",
-					"description": "Get 10%, 25%, or even 50% off your bill"
-				},
-				{
-					"icon": "🍔",
-					"title": "Buy One Get One",
-					"description": "Perfect when dining with friends or family"
-				},
-				{
-					"icon": "🍽️",
-					"title": "Fixed Price Meals",
-					"description": "Enjoy complete meals at special fixed prices"
-				}
-			]
-		},
-		"download": {
-			"title": "Ready to Start Saving with Every Meal?",
-			"description": "Join thousands of Egyptians saving money daily with the Noaat app",
-			"appStore": "Download from App Store",
-			"playStore": "Download from Google Play",
-			"features": {
-				"free": "Completely Free",
-				"realCashback": "Real Cashback",
-				"arabic": "Arabic Support"
-			}
-		}
-	}
+  "Hero": {
+    "h1": "Offer, Cashback & Coupons!",
+    "h2": "Your favorite food now comes with a side of cash. Noaat is the simplest way to get real cashback and exclusive coupons at Egypt's best restaurants",
+    "description": "Stop hunting for discount codes that don't work. With Noaat, you save money effortlessly every time you dine out",
+    "business_tagline": "For Businesses: We're not just an offers platform, we're your partner in understanding customers and growing your business",
+    "cta": "Download Now & Get 100 EGP Bonus",
+    "business_cta": "Join Our Partners"
+  },
+  "Feature": {
+    "h2": "One App. All the Savings.",
+    "h3": "We don’t just give you one way to save, we give you all of them.",
+    "list": [
+      {
+        "title": "Real Cashback",
+        "description": "Get a percentage of your bill back in real money. No confusing points, just cash in your wallet to spend on whatever you want.",
+        "icon": "FaMoneyBillWave"
+      },
+      {
+        "title": "Exclusive Coupons",
+        "description": "Get instant, massive discounts on your favorite restaurants with our exclusive coupons. Buy them, use them, and save immediately.",
+        "icon": "FaTicketAlt"
+      },
+      {
+        "title": "Always-On Offers",
+        "description": "Beyond cashback and coupons, find special deals and promotions you won’t see anywhere else, available only on Noaat.",
+        "icon": "FaStar"
+      }
+    ]
+  },
+  "AppPreview": {
+    "h2": "See The App in Action",
+    "h3": "A beautiful, simple, and powerful app to manage your savings."
+  },
+  "HowItWorks": {
+    "h2": "How to Get the Most Out of Noaat",
+    "step1_title": "Discover Offers Around You",
+    "step1_desc": "Open the Noaat app and browse hundreds of exclusive offers, from cashback rewards to instant discount codes.",
+    "step2_title": "Earn Cash Back",
+    "step2_desc": "Enjoy your meal, and to get your cashback, just snap a picture of your receipt and upload it directly in the app.",
+    "step3_title": "Redeem Coupons",
+    "step3_desc": "Your cashback is added to your Noaat wallet instantly! Use your balance to buy coupons for even bigger discounts."
+  },
+  "Categories": {
+    "h2": "Restaurant Deals For Every Taste",
+    "fastfood_title": "Fast Food & Pizza",
+    "fastfood_desc": "Food discounts from popular fast food chains and pizza restaurants.",
+    "egyptian_title": "Traditional Egyptian",
+    "egyptian_desc": "Authentic Egyptian restaurant offers featuring the best local dishes.",
+    "cafes_title": "Cafes & Desserts",
+    "cafes_desc": "Discount codes for coffee and desserts from premium cafes.",
+    "finedining_title": "Fine Dining",
+    "finedining_desc": "Purchase coupons for luxury restaurants at the best prices."
+  },
+  "AppPromotion": {
+    "h2": "Your Smartest Dining Companion is Here",
+    "description": "Take control of your dining budget. With the Noaat app, you can track your savings, discover new restaurants, and manage your cashback and coupons effortlessly.",
+    "benefit1": "Real-time offer notifications.",
+    "benefit2": "Secure in-app wallet.",
+    "benefit3": "Easy receipt scanning.",
+    "benefit4": "Track your savings history."
+  },
+  "Testimonial": {
+    "h2": "Don’t just take our word for it.",
+    "h3": "Here’s what real users are saying.",
+    "list": [
+      {
+        "nickname": "Ahmed M.",
+        "description": "Marketing Manager",
+        "avatar": "/image/avatar.png",
+        "content": "This app is a game-changer. I got over 500 EGP in cashback in my first month. The cashback system is so much better than regular discounts."
+      },
+      {
+        "nickname": "Sara K.",
+        "description": "University Student",
+        "avatar": "/image/avatar.png",
+        "content": "I love how easy it is to find restaurant deals. I used a coupon for a family dinner and saved a fortune. Highly recommended!"
+      },
+      {
+        "nickname": "Omar F.",
+        "description": "Engineer",
+        "avatar": "/image/avatar.png",
+        "content": "Finally, an app that understands what we need. Great offers at the most famous restaurants in Egypt. It’s my go-to app before going out."
+      }
+    ]
+  },
+  "Faq": {
+    "h2": "Got Questions?",
+    "h3": "We’ve got answers.",
+    "description": "Here are some of the most common questions we get about Noaat.",
+    "list": [
+      {
+        "question": "What is Noaat, exactly?",
+        "answer": "Noaat is a free mobile app that gives you real cashback and exclusive coupons at a huge variety of restaurants and cafes in Egypt. Just eat, upload your receipt, and save money."
+      },
+      {
+        "question": "Is this a points system?",
+        "answer": "No. We believe in real money, not confusing points. The cashback you earn is actual money (EGP) that gets added to your wallet in the app. You can use it for anything you want."
+      },
+      {
+        "question": "How long does it take to get my cashback?",
+        "answer": "It’s fast. Once you upload a clear receipt, our system typically verifies it and adds the cashback to your wallet within minutes."
+      },
+      {
+        "question": "Can I use my cashback balance to buy coupons?",
+        "answer": "Absolutely! That’s the smartest way to use your balance. You can use your cashback to buy coupons for even bigger discounts, effectively doubling your savings."
+      },
+      {
+        "question": "Why does Noaat need access to my location?",
+        "answer": "Noaat uses your location to show you relevant offers and restaurants near you. This helps us provide you with the best deals in your area."
+      },
+      {
+        "question": "Why does Noaat need access to my camera?",
+        "answer": "Noaat needs access to your camera to allow you to scan your receipts for cashback. This is a quick and easy way to earn cashback on your purchases."
+      },
+      {
+        "question": "How do I create an account?",
+        "answer": "Creating an account with Noaat is simple! Just download the app, enter your phone number, and follow the prompts to receive a verification code. Once verified, you're ready to start saving."
+      }
+    ]
+  },
+  "CTA": {
+    "h2": "Start Saving With Noaat Today",
+    "h3": "Download the app and enjoy the strongest cashback and best restaurant deals in Egypt!",
+    "description": "Join thousands of users who save with Noaat every day."
+  },
+  "CTAButton": {
+    "btn1": "Download for iOS",
+    "btn2": "Download for Android",
+    "btn3": "Browse Deals",
+    "btn4": "Learn More"
+  },
+  "ForBusiness": {
+    "title": "Your Success Partner",
+    "subtitle": "Noaat is not just an offers app, we are your partner in expansion, understanding, and continuous improvement",
+    "description": "Learn how Noaat helps your business attract new customers, understand purchase behavior, and improve performance through precise analytics and personalized cashback",
+    "about": {
+      "title": "About Us",
+      "subtitle": "Noaat is a smart platform that helps partners attract new customers, understand purchasing behavior, and improve performance through precise analytics and personalized cashback",
+      "mission": {
+        "title": "Our Mission",
+        "description": "We aim to be the strategic partner for restaurants and businesses in Egypt, helping them understand their customers better and improve their profits through advanced yet simple technological solutions"
+      },
+      "vision": {
+        "title": "Our Vision",
+        "description": "To be the leading platform in the Middle East connecting businesses with their customers, transforming data into smart decisions that drive growth and prosperity"
+      },
+      "services": {
+        "title": "Our Partner Services",
+        "items": [
+          {
+            "icon": "⭐",
+            "title": "Customer Reviews",
+            "description": "Collect genuine feedback on product quality, service, and cleanliness"
+          },
+          {
+            "icon": "📊",
+            "title": "Detailed Reports",
+            "description": "Analyze offer performance across all branches"
+          },
+          {
+            "icon": "🔍",
+            "title": "Real-time Analytics",
+            "description": "Transform customer invoices into actionable insights"
+          },
+          {
+            "icon": "🎯",
+            "title": "Flexible System",
+            "description": "Customized cashback and coupons to attract customers"
+          }
+        ]
+      },
+      "stats": {
+        "title": "Our Numbers Speak",
+        "items": [
+          {
+            "number": "500+",
+            "label": "Partner Restaurants"
+          },
+          {
+            "number": "50,000+",
+            "label": "Active Customers"
+          },
+          {
+            "number": "2M+",
+            "label": "EGP Cashback"
+          },
+          {
+            "number": "95%",
+            "label": "Partner Satisfaction"
+          }
+        ]
+      }
+    },
+    "packages": {
+      "title": "Our Partner Packages",
+      "subtitle": "Choose the package that suits your business needs and get the most out of the Noaat platform",
+      "recommended": "Most Popular",
+      "cta": "Get Started",
+      "plans": [
+        {
+          "name": "Basic Package",
+          "price": "Free",
+          "description": "Perfect for small and emerging restaurants",
+          "features": [
+            "Up to 100 invoices per month",
+            "Basic cashback system",
+            "Monthly reports",
+            "Email support",
+            "Single branch management"
+          ],
+          "recommended": false,
+          "color": "from-blue-500 to-blue-600"
+        },
+        {
+          "name": "Professional Package",
+          "price": "499 EGP/month",
+          "description": "Best suited for medium-sized restaurants",
+          "features": [
+            "Unlimited invoices",
+            "Advanced cashback and coupons",
+            "Detailed reports and analytics",
+            "24/7 phone support",
+            "Manage up to 5 branches",
+            "Customer reviews",
+            "Instant notifications"
+          ],
+          "recommended": true,
+          "color": "from-purple-500 to-purple-600"
+        },
+        {
+          "name": "Enterprise Package",
+          "price": "Custom",
+          "description": "For large chains and corporations",
+          "features": [
+            "Custom solutions",
+            "POS system integration",
+            "Dedicated account manager",
+            "Team training",
+            "Unlimited branches",
+            "Custom API",
+            "Advanced AI-powered analytics"
+          ],
+          "recommended": false,
+          "color": "from-amber-500 to-amber-600"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Ready to Start Your Journey with Us?",
+      "description": "Join hundreds of restaurants that benefit from the Noaat platform every day. Our team is ready to help you choose the right package",
+      "cta": "Contact for Free Consultation",
+      "demo": "Book a Demo"
+    }
+  },
+  "Blog": {
+    "title": "Noaat Blog",
+    "description": "Learn about the latest saving tips and best restaurant offers",
+    "side1": "Saving Tips",
+    "side3": "App News"
+  },
+  "Footer": {
+    "company": "Noaat - Egypt's Smart Food Deals & Cashback App.",
+    "links_title": "Quick Links",
+    "link1": "How It Works",
+    "link2": "Coupons",
+    "link3": "Blog",
+    "link4": "Download App",
+    "categories_title": "Categories",
+    "cat1": "Restaurant Deals in Egypt",
+    "cat2": "Food Discounts",
+    "cat3": "Restaurant Discount Codes",
+    "cat4": "Partner Restaurants",
+    "social_title": "Follow Us",
+    "copyright": "© 2025 Noaat. All Rights Reserved."
+  },
+  "HowCashbackWorksPage": {
+    "h1": "The Easiest Cashback System in Egypt",
+    "metaDescription": "Learn how Noaat's cashback system works. Upload your restaurant receipt and earn real money in your wallet. Get the strongest cashback on food in Egypt.",
+    "intro": "Say goodbye to complicated points and confusing rewards. Noaat offers the most straightforward cashback system in Egypt. You eat, you save, you get real money back. It’s that simple.",
+    "h2_how_to_earn": "How to Earn Cashback with Noaat",
+    "step1": "Find a Cashback Offer: Open the app and look for restaurants with a \"Cashback\" badge.",
+    "step2": "Dine and Pay: Go to the restaurant, enjoy your meal as usual, and ask for the bill.",
+    "step3": "Scan Your Receipt: Open the Noaat app, tap the 'Upload Receipt' button, and take a clear picture of your entire receipt.",
+    "step4": "Get Paid: Our system will verify your receipt instantly. Once approved, the cashback amount is added directly to your Noaat wallet.",
+    "h2_your_wallet": "Your Wallet, Your Rules",
+    "wallet_desc": "Once you have money in your Noaat wallet, you can use your balance to buy coupons for even bigger discounts or transfer your savings.",
+    "h2_why_better": "Why is Our Cashback Better?",
+    "benefit1": "Real Money, Not Points: We give you actual EGP, not points that expire or have limited use.",
+    "benefit2": "No Restrictions: Use your cashback at any partner restaurant, for any offer.",
+    "benefit3": "Transparent and Fast: See your earnings in real-time. What you see is what you get.",
+    "cta": "Browse Cashback Offers Now & Download the App!"
+  },
+  "CouponsOffersPage": {
+    "h1": "Instant Discounts with Restaurant Coupons",
+    "metaDescription": "Find the best food discounts in Egypt with Noaat coupons. Learn how to buy and activate a discount code for instant savings.",
+    "intro": "Want to save money right now? Our coupons and offers are your ticket to instant food discounts. Noaat partners with the most famous restaurants in Egypt to bring you exclusive deals.",
+    "h2_how_to_use": "How to Use Noaat Coupons",
+    "step1": "Browse Coupons: Open the app and go to the \"Coupons\" section to find the perfect discount code.",
+    "step2": "Buy the Coupon: Select the offer you want. You can buy a coupon using your credit card or your Noaat wallet balance.",
+    "step3": "Activate at the Restaurant: When you are at the restaurant and ready to pay, simply show the coupon on your app to the cashier.",
+    "step4": "Save Instantly: The discount is applied to your bill on the spot.",
+    "h2_types_of_offers": "Types of Offers You’ll Find",
+    "offer1": "Percentage Discounts: Get 10%, 25%, or even 50% off your total bill.",
+    "offer2": "Buy-One-Get-One (BOGO): Perfect for sharing a meal with a friend.",
+    "offer3": "Set Menus: Enjoy a full meal for a special, fixed price.",
+    "cta": "Find Your Perfect Coupon Now!"
+  },
+  "WhyNoaatPage": {
+    "h1": "The Smartest Way to Dine and Save",
+    "metaDescription": "Why choose Noaat? Get the best of both worlds: instant coupons and long-term cashback. The only food deals app you need.",
+    "intro": "In a world of endless apps, Noaat stands out by being simple, powerful, and built for you. We are your partner in saving money while enjoying the food you love.",
+    "h2_one_app": "One App for Everything",
+    "one_app_desc": "Why choose between a discount code and a cashback offer? With Noaat, you get both.",
+    "h2_designed_for_egypt": "Designed for Egypt",
+    "designed_for_egypt_desc": "We focus exclusively on restaurant deals in Egypt, bringing you the best restaurant deals that matter to you.",
+    "h2_honest_savings": "Honest, Transparent Savings",
+    "honest_savings_desc": "We believe in real value. Our cashback system gives you real money, and our coupons provide real, instant discounts.",
+    "cta": "Join Thousands of Smart Diners Today!"
+  },
+  "Packages": {
+    "title": "Our Business Packages",
+    "subtitle": "Choose the package that fits your business needs and maximize your potential with Noaat platform",
+    "description": "We're not just an offers platform, we're your partner in understanding customers and growing your business",
+    "recommended": "Most Popular",
+    "cta": "Get Started",
+    "basic": {
+      "name": "Basic Package",
+      "price": "Start Free",
+      "description": "Perfect for new businesses wanting to explore cashback and coupon programs",
+      "features": [
+        "Create cashback and coupon offers",
+        "Simple customer survey system",
+        "Basic technical support",
+        "Customer data protection",
+        "Basic performance reports"
+      ]
+    },
+    "premium": {
+      "name": "Premium Package",
+      "price": "Contact Us",
+      "description": "For companies seeking deeper customer relationship insights and advanced analytics",
+      "features": [
+        "All Basic Package features",
+        "Advanced customer behavior analytics",
+        "Customer segmentation capabilities",
+        "Priority technical support",
+        "External data import",
+        "Detailed custom reports"
+      ]
+    },
+    "vip": {
+      "name": "VIP Package",
+      "price": "Custom Solutions",
+      "description": "For large businesses needing strategic growth with AI-powered tools",
+      "features": [
+        "All Premium Package features",
+        "AI-powered predictive analytics",
+        "Fully customized dashboard",
+        "Early access to new features",
+        "Full API access for integration",
+        "Personal training and periodic coaching"
+      ]
+    },
+    "contact": {
+      "title": "Need a Custom Solution?",
+      "description": "Contact us to see how we can help grow your business with Noaat",
+      "cta": "Contact Us"
+    }
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "subtitle": "Have a question or want to become a partner? We're here to help you",
+    "description": "Get in touch with the Noaat team and we'll help with all your needs",
+    "info": {
+      "title": "Contact Information",
+      "email": {
+        "title": "Email Address",
+        "value": "info@noaat.com"
+      },
+      "phone": {
+        "title": "Phone Number",
+        "value": "+20 10 1234 5678"
+      },
+      "hours": {
+        "title": "Business Hours",
+        "value": "Sunday - Thursday: 9 AM - 6 PM"
+      }
+    },
+    "business": {
+      "title": "For Businesses & Restaurants",
+      "description": "Want to join our partner network and benefit from our advanced solutions? Contact us and we'll explain how Noaat can help grow your business",
+      "cta": "Join Our Partners"
+    },
+    "form": {
+      "title": "Send us a Message",
+      "name": "Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "What would you like to talk about?",
+      "message": "Message",
+      "messagePlaceholder": "Write your message here...",
+      "submit": "Send Message"
+    }
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about Noaat for customers and partners",
+    "description": "Answers to the most common questions about Noaat",
+    "partners": {
+      "title": "Partner Questions",
+      "items": [
+        {
+          "question": "Why should I use Noaat for my business?",
+          "answer": "Noaat helps you attract new customers, understand their buying behavior, and improve your business performance with precise analytics and personalized cashback."
+        },
+        {
+          "question": "How is Noaat different from regular discounts?",
+          "answer": "Regular discounts end after a single purchase. With Noaat, customers have cashback they can use for new coupons, creating loyalty. You also get detailed analytics on customer behavior that you don't get with ordinary discounts."
+        },
+        {
+          "question": "How does the cashback system work?",
+          "answer": "The customer buys, uploads their receipt on the app, and we review it. Cashback is then credited based on the agreed percentage. You also get detailed reports on performance."
+        },
+        {
+          "question": "Do I need to change my point-of-sale system?",
+          "answer": "No, your current system stays the same. Customers just upload their normal receipt."
+        },
+        {
+          "question": "Can I control which branches the offer applies to?",
+          "answer": "Yes, you can select specific branches or all branches, and you can change this anytime from the dashboard."
+        },
+        {
+          "question": "How can I track the performance of offers?",
+          "answer": "Through the dashboard, you can see the number of customers who used the offer, total sales generated, and detailed insights into customer behavior."
+        },
+        {
+          "question": "Can I edit or stop an offer after it starts?",
+          "answer": "Absolutely. You can edit or stop an offer anytime through the dashboard or by contacting support."
+        },
+        {
+          "question": "How does invoicing and payment work?",
+          "answer": "We operate a transparent system, billing you only for completed transactions and providing detailed monthly invoices. Payment can be upfront or monthly depending on your agreement."
+        },
+        {
+          "question": "Is Noaat only for restaurants?",
+          "answer": "No, Noaat works for any business offering products or services: restaurants, cafes, retail stores, supermarkets, or any business looking to increase customer engagement."
+        },
+        {
+          "question": "How can I measure ROI?",
+          "answer": "The dashboard provides detailed reports on new customers, repeat purchase rate, total spending, and sales coming from offers."
+        }
+      ]
+    },
+    "customers": {
+      "title": "Customer Questions",
+      "items": [
+        {
+          "question": "How can I get cashback?",
+          "answer": "It’s simple: buy from a partner restaurant or store, upload your receipt on the app, and after review, the cashback will be credited to your wallet."
+        },
+        {
+          "question": "How long does it take to receive cashback?",
+          "answer": "Usually within minutes, but it can take up to 24-48 hours if review is needed or there is high traffic."
+        },
+        {
+          "question": "Does cashback expire?",
+          "answer": "Yes, cashback may have an expiry period (e.g., 3 or 6 months) depending on the offer. Expiry dates are clearly shown in the wallet."
+        },
+        {
+          "question": "What is required on the receipt?",
+          "answer": "The receipt must be clear, showing the restaurant/store name, date, and total amount. It must be an official tax receipt and should be uploaded the same day of purchase."
+        },
+        {
+          "question": "Why might cashback be rejected?",
+          "answer": "Possible reasons include: unclear receipt, not from a partner, old receipt, expired offer, or conditions not met."
+        },
+        {
+          "question": "How can I use my cashback?",
+          "answer": "You can use it to buy new coupons in the app, which give discounts or free products at partner locations. Cash withdrawals are not available currently."
+        },
+        {
+          "question": "What is the difference between offers and coupons?",
+          "answer": "Offers: you buy and get cashback afterward. Coupons: you purchase with cashback and get immediate discount or free product at checkout."
+        },
+        {
+          "question": "What happens if I buy a coupon but don’t use it?",
+          "answer": "Coupons have an expiration date. After this date, they become invalid and the balance cannot be recovered."
+        },
+        {
+          "question": "Do I need to complete a survey after purchase?",
+          "answer": "Sometimes, a short survey is requested after using an offer or coupon. This helps improve service and may reward you with extra points."
+        },
+        {
+          "question": "Do I need internet while at the store?",
+          "answer": "No, internet is not required during purchase. You only need it to upload the receipt afterward."
+        },
+        {
+          "question": "Can I share my wallet with someone else?",
+          "answer": "No, the wallet is linked to your personal account and mobile number."
+        },
+        {
+          "question": "Can I buy offers or coupons for someone else?",
+          "answer": "Yes, you can use a coupon for someone else at checkout, but cashback always goes to your wallet."
+        },
+        {
+          "question": "How can I know which branches participate?",
+          "answer": "Each offer or coupon shows the participating branches clearly in the app before activation."
+        },
+        {
+          "question": "Is there a minimum purchase amount for cashback?",
+          "answer": "Yes, some offers have a minimum spending requirement to qualify for cashback. This is shown in the offer details."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Didn't find what you were looking for?",
+      "description": "If you have another question or need help, don’t hesitate to contact us",
+      "cta": "Contact Us"
+    }
+  },
+  "Terms": {
+    "title": "Terms and Conditions",
+    "subtitle": "We are committed to protecting your rights and ensuring a safe and excellent experience",
+    "description": "Learn about the terms and conditions for using the Noaat app and platform",
+    "lastUpdated": "Last updated: August 24, 2025",
+    "sections": [
+      {
+        "title": "Definitions and Terms",
+        "content": [
+          "'Noaat' refers to the Noaat app, website, and all related services.",
+          "'User' is any person using the app or website, whether as a customer or business partner.",
+          "'Partner' is any restaurant or business establishment registered on the Noaat platform to offer deals and discounts.",
+          "'Cashback' is the monetary amount earned by customers after completing a qualifying purchase through the app."
+        ]
+      },
+      {
+        "title": "Acceptance of Terms",
+        "content": [
+          "By using the Noaat app, you agree to all the terms and conditions stated here.",
+          "If you do not agree to any of these terms, you must stop using the service immediately.",
+          "We reserve the right to modify these terms at any time, and you will be notified of any important changes."
+        ]
+      },
+      {
+        "title": "App Usage",
+        "content": [
+          "You must be at least 16 years old to use the app, or have parental consent.",
+          "Using the app for any illegal purpose or prohibited under these terms is forbidden.",
+          "You must provide accurate and truthful information when registering and update it when necessary.",
+          "You are responsible for keeping your account information secure and not sharing it with others."
+        ]
+      },
+      {
+        "title": "Cashback System",
+        "content": [
+          "Cashback is calculated according to each offer's terms and predetermined discount percentage.",
+          "You must upload a valid and clear tax receipt from a partner restaurant to receive cashback.",
+          "We reserve the right to review and reject any cashback request that doesn't comply with the terms.",
+          "Cashback cannot be converted to cash except according to the minimum threshold and conditions specified in the app."
+        ]
+      },
+      {
+        "title": "Partnerships and Offers",
+        "content": [
+          "All offers and discounts are available according to each partner's terms and for a limited time.",
+          "Offers may vary from branch to branch and from time to time without prior notice.",
+          "Noaat is not responsible for food quality or service provided by partners, we only facilitate access to offers.",
+          "In case of a dispute with a partner, we will do our best to help resolve the issue."
+        ]
+      },
+      {
+        "title": "Privacy and Data Protection",
+        "content": [
+          "We are committed to protecting your privacy and personal data according to our Privacy Policy.",
+          "We may use your data to improve the service and provide personalized offers.",
+          "We will not share your data with third parties except in cases specified in the Privacy Policy.",
+          "You have the right to request deletion or modification of your data at any time by contacting us."
+        ]
+      },
+      {
+        "title": "Responsibilities and Warranties",
+        "content": [
+          "Noaat is not responsible for any direct or indirect damages that may result from using the app.",
+          "We do our best to ensure information accuracy, but we don't guarantee it's completely error-free.",
+          "You are responsible for using the app correctly and legally.",
+          "In case of technical issues, we will work to resolve them as quickly as possible."
+        ]
+      },
+      {
+        "title": "Service Termination",
+        "content": [
+          "You may close your account at any time through the app settings.",
+          "We reserve the right to suspend or terminate your account in case of violation of these terms.",
+          "Upon account termination, some data may be retained according to our legal policies.",
+          "Any accumulated cashback will be available for use until the account closure date."
+        ]
+      }
+    ],
+    "contact": {
+      "title": "Need Additional Clarification?",
+      "description": "If you have any questions about the terms and conditions, our legal team is ready to help",
+      "cta": "Contact Legal Team"
+    }
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Your privacy matters to us, and we are committed to protecting your personal data",
+    "description": "Learn how we collect, use, and protect your data in the Noaat app",
+    "lastUpdated": "Last updated: August 24, 2025",
+    "sections": [
+      {
+        "title": "Information We Collect",
+        "content": [
+          "We collect basic information needed to provide you excellent service such as your name, phone number, and email.",
+          "Usage data like which restaurants you visit and what types of offers you prefer to give you better suggestions.",
+          "Device and location information (if you allow) to help you find the nearest restaurants.",
+          "Receipt photos you upload so we can verify your cashback eligibility."
+        ]
+      },
+      {
+        "title": "How We Use Your Data",
+        "content": [
+          "To provide you cashback service and verify the validity of transactions.",
+          "To send you notifications about new offers and cashback you've received.",
+          "To improve the service and better understand your needs to develop the app.",
+          "To communicate with you if there are any issues or inquiries.",
+          "To analyze data to understand user behavior and develop better services."
+        ]
+      },
+      {
+        "title": "Information Sharing",
+        "content": [
+          "We don't share your personal data with anyone except in the cases specified here.",
+          "We share basic data with our restaurant partners only so they can verify offers.",
+          "We may share aggregated and non-personal data with partners for analytical purposes.",
+          "In case of legal request from official authorities, we will comply with Egyptian law.",
+          "With service companies that help us operate the app, but with strong protection guarantees."
+        ]
+      },
+      {
+        "title": "Data Protection",
+        "content": [
+          "We use the strongest encryption methods to protect your data during transfer and storage.",
+          "Our servers are protected with the highest security standards and protection from breaches.",
+          "Employees who handle data are trained in privacy and have signed confidentiality agreements.",
+          "We regularly review and update protection systems to ensure maximum security.",
+          "In case of any security incident, we will notify you immediately and take all required measures."
+        ]
+      },
+      {
+        "title": "Your Data Rights",
+        "content": [
+          "You can view and update your personal data at any time through app settings.",
+          "You can request permanent deletion of your account and data, which we'll do within 30 days.",
+          "You can request a copy of all your data we have in an easily readable format.",
+          "You can object to using your data for certain purposes like personalized advertising.",
+          "You can request correction of any incorrect data we have about you."
+        ]
+      },
+      {
+        "title": "Cookies",
+        "content": [
+          "We use cookies to remember your preferences and improve your app experience.",
+          "These cookies help us understand how you use the app so we can develop it further.",
+          "You can control or block cookies through your browser settings.",
+          "Some cookies are essential for the app to function and it cannot work without them."
+        ]
+      },
+      {
+        "title": "Children's Privacy",
+        "content": [
+          "The app is not intended for children under 16 years old.",
+          "We do not knowingly collect personal information from children.",
+          "If we discover a child has used the app, we will delete their data immediately.",
+          "Parents are responsible for monitoring their children's internet usage."
+        ]
+      },
+      {
+        "title": "Policy Updates",
+        "content": [
+          "We may update this privacy policy from time to time to improve it or comply with new laws.",
+          "Any important updates will be notified to you in the app or via email.",
+          "We recommend reviewing the privacy policy periodically to stay informed of updates.",
+          "Your continued use of the app after updates means you agree to the new policy."
+        ]
+      }
+    ],
+    "contact": {
+      "title": "Questions About Your Privacy?",
+      "description": "If you have any inquiries about the privacy policy or want to control your data",
+      "cta": "Contact Privacy Team"
+    }
+  },
+  "About": {
+    "title": "About Us",
+    "subtitle": "Noaat is Egypt's first cashback platform aimed at providing the best dining experience at the lowest cost",
+    "description": "Learn about Noaat's story and how we started changing the way people dine in Egypt",
+    "story": {
+      "title": "Our Story",
+      "content": [
+        "The idea of Noaat began from a real need we all faced - the desire to eat good food from our favorite restaurants, but at a lower cost and in a smart way.",
+        "In 2024, we decided to change the rules of the game in Egypt and provide an innovative solution that makes every meal you eat give you money back, not just a one-time discount.",
+        "Today, Noaat has become the first destination for Egyptians who want to eat the best food for less money, while building real credit from every meal.",
+        "We're not just a discount app, we're your partner in the food journey, and our goal is to make every pound you spend return greater value to you."
+      ]
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "We aim to make the dining experience in Egypt smarter and more economical through an innovative platform that connects restaurants and customers in a way that benefits everyone."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the leading food cashback platform in Egypt and the Middle East, helping millions of people save money and experience the best restaurants."
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        {
+          "icon": "🤝",
+          "title": "Transparency",
+          "description": "We believe in complete clarity in all our dealings and ensure there are no hidden fees or complex terms"
+        },
+        {
+          "icon": "⚡",
+          "title": "Speed and Efficiency",
+          "description": "We strive to provide fast and reliable service that makes your experience with Noaat smooth and comfortable"
+        },
+        {
+          "icon": "💡",
+          "title": "Continuous Innovation",
+          "description": "We continuously develop our products and services to provide innovative solutions that meet our customers' needs"
+        }
+      ]
+    },
+    "stats": {
+      "title": "Our Achievements in Numbers",
+      "items": [
+        {
+          "number": "50,000+",
+          "label": "Happy Customers"
+        },
+        {
+          "number": "500+",
+          "label": "Partner Restaurants"
+        },
+        {
+          "number": "2M+",
+          "label": "EGP Cashback Saved"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Join the Noaat Family",
+      "description": "Whether you're a restaurant wanting to increase sales or a customer wanting to save money, Noaat is the right place",
+      "partnersBtn": "Join as Partner",
+      "downloadBtn": "Download App Now"
+    }
+  },
+  "HowAppWorks": {
+    "title": "Noaat App",
+    "subtitle": "The smartest way to eat and save money. Everything you need in one app: instant coupons and real cashback",
+    "description": "Learn how the Noaat app works and enjoy the best restaurant deals and cashback in Egypt",
+    "whyNoaat": {
+      "title": "Why Noaat?",
+      "features": [
+        {
+          "icon": "📱",
+          "title": "Everything in One App",
+          "description": "Why choose between discount codes and cashback offers? With Noaat, you have both in one place."
+        },
+        {
+          "icon": "🇪🇬",
+          "title": "Made for Egypt",
+          "description": "We focus entirely on restaurant offers in Egypt. We bring you the best restaurant deals that matter to you."
+        },
+        {
+          "icon": "💰",
+          "title": "Real and Transparent Savings",
+          "description": "Our cashback system gives you real money, and coupons provide instant and genuine discounts."
+        }
+      ]
+    },
+    "howCashback": {
+      "title": "How to Earn Cashback with Noaat",
+      "howToEarn": {
+        "title": "Simple Steps:",
+        "steps": [
+          "Find cashback offers in the app",
+          "Order and pay at the restaurant normally",
+          "Take a photo of the receipt and upload it",
+          "Receive your money in your wallet instantly"
+        ]
+      },
+      "benefits": {
+        "title": "Why Our Service is Better?",
+        "list": [
+          "Real money, not fake points",
+          "No restrictions on usage",
+          "Transparent and fast, see your earnings instantly",
+          "Highest cashback rates in Egypt"
+        ]
+      },
+      "wallet": {
+        "title": "Your Wallet, Your Decision",
+        "description": "Once you have money in your Noaat wallet, you can use your balance to buy coupons with bigger discounts or save your money."
+      }
+    },
+    "coupons": {
+      "title": "Instant Discounts with Coupons",
+      "howToUse": {
+        "title": "How to Use Noaat Coupons:",
+        "steps": [
+          {
+            "title": "Browse Coupons",
+            "description": "Open the coupons section and find the best deal for you"
+          },
+          {
+            "title": "Buy the Coupon",
+            "description": "Pay with your card or wallet balance"
+          },
+          {
+            "title": "Activate at Restaurant",
+            "description": "Show the coupon to the cashier from the app"
+          },
+          {
+            "title": "Save Instantly",
+            "description": "The discount applies to your bill immediately"
+          }
+        ]
+      },
+      "types": [
+        {
+          "icon": "💸",
+          "title": "Percentage Discounts",
+          "description": "Get 10%, 25%, or even 50% off your bill"
+        },
+        {
+          "icon": "🍔",
+          "title": "Buy One Get One",
+          "description": "Perfect when dining with friends or family"
+        },
+        {
+          "icon": "🍽️",
+          "title": "Fixed Price Meals",
+          "description": "Enjoy complete meals at special fixed prices"
+        }
+      ]
+    },
+    "download": {
+      "title": "Ready to Start Saving with Every Meal?",
+      "description": "Join thousands of Egyptians saving money daily with the Noaat app",
+      "appStore": "Download from App Store",
+      "playStore": "Download from Google Play",
+      "features": {
+        "free": "Completely Free",
+        "realCashback": "Real Cashback",
+        "arabic": "Arabic Support"
+      }
+    }
+  }
 }

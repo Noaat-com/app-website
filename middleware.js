@@ -15,7 +15,7 @@ const rewritePaths = [
   {pattern: /^\/faqs(\/)?$/, destination: `/ar/faqs`},
   {pattern: /^\/terms-and-conditions(\/)?$/, destination: `/ar/terms-and-conditions`},
   {pattern: /^\/privacy-policy(\/)?$/, destination: `/ar/privacy-policy`},
-  {pattern: /^\/how-it-works(\/)?$/, destination: `/ar/how-it-works`},
+  {pattern: /^\/how-app-works(\/)?$/, destination: `/ar/how-app-works`},
 ];
 
 export function middleware(request) {
