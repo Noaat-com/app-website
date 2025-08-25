@@ -1,146 +1,132 @@
 {
-	"ar": [
-		{
-			"name": "كل حاجة محتاج تعرفها عن مميزات تطبيق نقط الجديد",
-			"url_name": "app-features-guide-noaat-mobile-experience",
-			"image": "/image/app-features.svg",
-			"description": "اكتشف كل المميزات الجديدة في تطبيق نقط: الواجهة العربية، الوضع المظلم، تتبع الكاش باك، وأكتر. دليل شامل لتجربة مستخدم استثنائية.",
-			"create_time": 1735076400000
-		},
-		{
-			"name": "كيفية استخدام رصيد الكاش باك الخاص بك بذكاء على نقط",
-			"url_name": "how-to-use-your-cashback-balance-smartly",
-			"image": "/image/cashback-wallet.jpg",
-			"description": "لقد جمعت رصيد كاش باك، والآن ماذا؟ تعلم كيف تستخدم أرباحك بذكاء لتحقيق أقصى قدر من التوفير على تطبيق نقط.",
-			"create_time": 1725062400000
-		},
-		{
-			"name": "دليلك الكامل لاستخدام نظام الكاش باك في مصر",
-			"url_name": "complete-guide-to-cashback-system-in-egypt",
-			"image": "/image/cashback-guide.jpg",
-			"description": "كل ما تريد معرفته عن نظام الكاش باك في مصر. تعلم كيف يعمل، وكيف يمكنك تحقيق أقصى استفادة من كل جنيه تنفقه مع نقط.",
-			"create_time": 1724976000000
-		},
-		{
-			"name": "ابلكيشن عروض اكل: الطريقة الذكية للتوفير في كل طلبية",
-			"url_name": "food-deals-app-the-smart-way-to-save",
-			"image": "/image/food-app.jpg",
-			"description": "لماذا يجب أن يكون لديك ابلكيشن عروض اكل على هاتفك؟ اكتشف كيف يغير نقط طريقة توفيرك للمال في كل مرة تطلب فيها طعام.",
-			"create_time": 1724889600000
-		},
-		{
-			"name": "دليل شراء كوبون: ازاي تلاقي خصومات اكل بسهولة",
-			"url_name": "coupon-buying-guide-find-best-food-discounts",
-			"image": "/image/coupon-guide.jpg",
-			"description": "خطوة بخطوة، تعلم أفضل طرق شراء كوبون والحصول على خصومات اكل مميزة من المطاعم الشريكة مع نقط.",
-			"create_time": 1724716800000
-		},
-		{
-			"name": "ليه خدمة الكاش باك احسن من كود خصم عادي؟",
-			"url_name": "why-cashback-beats-a-regular-discount-code",
-			"image": "/image/cashback-vs-discount.jpg",
-			"description": "مقارنة شاملة بين نظام الكاش باك وكود الخصم. اكتشف ليه خدمة الكاش باك من نقط هي استثمارك الأذكى للتوفير على المدى الطويل.",
-			"create_time": 1724630400000
-		},
-		{
-			"name": "افضل عروض المطاعم في مصر – وفر فلوسك واستمتع بأحلى أكلة",
-			"url_name": "top-restaurant-deals-in-egypt",
-			"image": "/image/restaurant-deals.jpg",
-			"description": "دليلك الشامل لأفضل عروض المطاعم في مصر. اكتشف ازاي تلاقي خصومات اكل حقيقية، كوبونات شراء، وتاخد اقوى كاش باك مع نقط.",
-			"create_time": 1724544000000
-		},
-		{
-			"name": "ازاي تستفيد من اقوى كاش باك على المطاعم في مصر؟ دليلك خطوة بخطوة",
-			"url_name": "how-to-get-the-best-restaurant-cashback-in-egypt",
-			"image": "/image/og.jpg",
-			"description": "عايز تكسب فلوس وانت بتاكل؟ دليلنا هيوريك إزاي تلاقي اقوى كاش باك على وجبات المطاعم في مصر باستخدام ابلكيشن نقط.",
-			"create_time": 1724457600000
-		},
-		{
-			"name": "ازاي تستفيد من اقوى كاش باك على المطاعم في مصر؟",
-			"url_name": "azay-testafeed-men-aqwa-cash-back-3ala-almat3em-fi-masr",
-			"image": "/image/cashback-blog.jpg",
-			"description": "اعرف ازاي تحصل على اقوى كاش باك من المطاعم الشريكة في مصر مع نقط. خدمة الكاش باك السريعة وخصومات اكل حصرية.",
-			"create_time": 1703980800000
-		}
-	],
-	"en": [
-		{
-			"name": "Everything You Need to Know About Noaat App's New Features",
-			"url_name": "app-features-guide-noaat-mobile-experience",
-			"image": "/image/app-features.svg",
-			"description": "Discover all the new features in Noaat app: Arabic interface, dark mode, cashback tracking, and more. Complete guide to an exceptional user experience.",
-			"create_time": 1735076400000
-		},
-		{
-			"name": "How to Use Your Cashback Balance Smartly on Noaat",
-			"url_name": "how-to-use-your-cashback-balance-smartly",
-			"image": "/image/cashback-wallet.jpg",
-			"description": "You've accumulated a cashback balance, now what? Learn how to use your earnings smartly to maximize your savings on the Noaat app.",
-			"create_time": 1725062400000
-		},
-		{
-			"name": "Your Complete Guide to Using the Cashback System in Egypt",
-			"url_name": "complete-guide-to-cashback-system-in-egypt",
-			"image": "/image/cashback-guide.jpg",
-			"description": "Everything you want to know about the cashback system in Egypt. Learn how it works and how you can make the most of every pound you spend with Noaat.",
-			"create_time": 1724976000000
-		},
-		{
-			"name": "Food Deals App: The Smart Way to Save on Every Order",
-			"url_name": "food-deals-app-the-smart-way-to-save",
-			"image": "/image/food-app.jpg",
-			"description": "Why should you have a food deals app on your phone? Discover how Noaat is changing the way you save money every time you order food.",
-			"create_time": 1724889600000
-		},
-		{
-			"name": "Coupon Buying Guide: How to Find the Best Food Discounts",
-			"url_name": "coupon-buying-guide-find-best-food-discounts",
-			"image": "/image/coupon-guide.jpg",
-			"description": "Step-by-step, learn the best ways to buy a coupon and get significant food discounts from partner restaurants with Noaat.",
-			"create_time": 1724716800000
-		},
-		{
-			"name": "Why Cashback Beats a Regular Discount Code",
-			"url_name": "why-cashback-beats-a-regular-discount-code",
-			"image": "/image/cashback-vs-discount.jpg",
-			"description": "A comprehensive comparison between the cashback system and discount codes. Discover why Noaat's cashback service is your smartest long-term saving investment.",
-			"create_time": 1724630400000
-		},
-		{
-			"name": "Top Restaurant Deals in Egypt – Save Money & Enjoy Every Meal",
-			"url_name": "top-restaurant-deals-in-egypt",
-			"image": "/image/restaurant-deals.jpg",
-			"description": "Your ultimate guide to the best restaurant deals in Egypt. Discover how to find real food discounts, purchase coupons, and get the strongest cashback with Noaat.",
-			"create_time": 1724544000000
-		},
-		{
-			"name": "How to Get the Best Restaurant Cashback in Egypt: A Step-by-Step Guide",
-			"url_name": "how-to-get-the-best-restaurant-cashback-in-egypt",
-			"image": "/image/og.jpg",
-			"description": "Want to earn money while you eat? Our guide shows you how to find the best cashback on restaurant meals in Egypt using the Noaat app.",
-			"create_time": 1724457600000
-		},
-		{
-			"name": "How to Get the Best Restaurant Cashback in Egypt",
-			"url_name": "how-to-get-best-restaurant-cashback-egypt",
-			"image": "/image/cashback-blog.jpg",
-			"description": "Learn how to get the best cashback from partner restaurants in Egypt with نقط. Fast cashback service and exclusive food discounts available now.",
-			"create_time": 1703980800000
-		},
-		{
-			"name": "Why Cashback Beats a Regular Discount Code",
-			"url_name": "why-cashback-beats-regular-discount-code",
-			"image": "/image/cashback-vs-discount.jpg",
-			"description": "Learn the difference between cashback service and regular discount code system. Discover why cashback is the smartest way to save with نقط.",
-			"create_time": 1703808000000
-		},
-		{
-			"name": "Coupon Buying Guide: How to Find the Best Food Discounts",
-			"url_name": "coupon-buying-guide-best-food-discounts",
-			"image": "/image/coupon-guide.jpg",
-			"description": "Learn how to buy coupons at the best prices and get food discounts from partner restaurants. Purchase coupons with نقط.",
-			"create_time": 1703721600000
-		}
-	]
+  "ar": [
+    {
+      "name": "كل حاجة محتاج تعرفها عن مميزات تطبيق نقط الجديد",
+      "url_name": "app-features-guide-noaat-mobile-experience",
+      "image": "/image/app-features.svg",
+      "description": "اكتشف كل المميزات الجديدة في تطبيق نقط: الواجهة العربية، الوضع المظلم، تتبع الكاش باك، وأكتر. دليل شامل لتجربة مستخدم استثنائية.",
+      "create_time": 1756044000000
+    },
+    {
+      "name": "كيفية استخدام رصيد الكاش باك الخاص بك بذكاء على نقط",
+      "url_name": "how-to-use-your-cashback-balance-smartly",
+      "image": "/image/cashback-wallet.jpg",
+      "description": "لقد جمعت رصيد كاش باك، والآن ماذا؟ تعلم كيف تستخدم أرباحك بذكاء لتحقيق أقصى قدر من التوفير على تطبيق نقط.",
+      "create_time": 1755957600000
+    },
+    {
+      "name": "دليلك الكامل لاستخدام نظام الكاش باك في مصر",
+      "url_name": "complete-guide-to-cashback-system-in-egypt",
+      "image": "/image/cashback-guide.jpg",
+      "description": "كل ما تريد معرفته عن نظام الكاش باك في مصر. تعلم كيف يعمل، وكيف يمكنك تحقيق أقصى استفادة من كل جنيه تنفقه مع نقط.",
+      "create_time": 1755871200000
+    },
+    {
+      "name": "ابلكيشن عروض اكل: الطريقة الذكية للتوفير في كل طلبية",
+      "url_name": "food-deals-app-the-smart-way-to-save",
+      "image": "/image/food-app.jpg",
+      "description": "لماذا يجب أن يكون لديك ابلكيشن عروض اكل على هاتفك؟ اكتشف كيف يغير نقط طريقة توفيرك للمال في كل مرة تطلب فيها طعام.",
+      "create_time": 1755784800000
+    },
+    {
+      "name": "دليل شراء كوبون: ازاي تلاقي خصومات اكل بسهولة",
+      "url_name": "coupon-buying-guide-find-best-food-discounts",
+      "image": "/image/coupon-guide.jpg",
+      "description": "خطوة بخطوة، تعلم أفضل طرق شراء كوبون والحصول على خصومات اكل مميزة من المطاعم الشريكة مع نقط.",
+      "create_time": 1755698400000
+    },
+    {
+      "name": "ليه خدمة الكاش باك احسن من كود خصم عادي؟",
+      "url_name": "why-cashback-beats-a-regular-discount-code",
+      "image": "/image/cashback-vs-discount.jpg",
+      "description": "مقارنة شاملة بين نظام الكاش باك وكود الخصم. اكتشف ليه خدمة الكاش باك من نقط هي استثمارك الأذكى للتوفير على المدى الطويل.",
+      "create_time": 1755612000000
+    },
+    {
+      "name": "افضل عروض المطاعم في مصر – وفر فلوسك واستمتع بأحلى أكلة",
+      "url_name": "top-restaurant-deals-in-egypt",
+      "image": "/image/restaurant-deals.jpg",
+      "description": "دليلك الشامل لأفضل عروض المطاعم في مصر. اكتشف ازاي تلاقي خصومات اكل حقيقية، كوبونات شراء، وتاخد اقوى كاش باك مع نقط.",
+      "create_time": 1755525600000
+    },
+    {
+      "name": "ازاي تستفيد من اقوى كاش باك على المطاعم في مصر؟ دليلك خطوة بخطوة",
+      "url_name": "how-to-get-the-best-restaurant-cashback-in-egypt",
+      "image": "/image/og.jpg",
+      "description": "عايز تكسب فلوس وانت بتاكل؟ دليلنا هيوريك إزاي تلاقي اقوى كاش باك على وجبات المطاعم في مصر باستخدام ابلكيشن نقط.",
+      "create_time": 1755439200000
+    },
+    {
+      "name": "ازاي تستفيد من اقوى كاش باك على المطاعم في مصر؟",
+      "url_name": "azay-testafeed-men-aqwa-cash-back-3ala-almat3em-fi-masr",
+      "image": "/image/cashback-blog.jpg",
+      "description": "اعرف ازاي تحصل على اقوى كاش باك من المطاعم الشريكة في مصر مع نقط. خدمة الكاش باك السريعة وخصومات اكل حصرية.",
+      "create_time": 1755352800000
+    }
+  ],
+  "en": [
+    {
+      "name": "Everything You Need to Know About Noaat App's New Features",
+      "url_name": "app-features-guide-noaat-mobile-experience",
+      "image": "/image/app-features.svg",
+      "description": "Discover all the new features in Noaat app: Arabic interface, dark mode, cashback tracking, and more. Complete guide to an exceptional user experience.",
+      "create_time": 1756044000000
+    },
+    {
+      "name": "How to Use Your Cashback Balance Smartly on Noaat",
+      "url_name": "how-to-use-your-cashback-balance-smartly",
+      "image": "/image/cashback-wallet.jpg",
+      "description": "You've accumulated a cashback balance, now what? Learn how to use your earnings smartly to maximize your savings on the Noaat app.",
+      "create_time": 1755957600000
+    },
+    {
+      "name": "Your Complete Guide to Using the Cashback System in Egypt",
+      "url_name": "complete-guide-to-cashback-system-in-egypt",
+      "image": "/image/cashback-guide.jpg",
+      "description": "Everything you want to know about the cashback system in Egypt. Learn how it works and how you can make the most of every pound you spend with Noaat.",
+      "create_time": 1755871200000
+    },
+    {
+      "name": "Food Deals App: The Smart Way to Save on Every Order",
+      "url_name": "food-deals-app-the-smart-way-to-save",
+      "image": "/image/food-app.jpg",
+      "description": "Why should you have a food deals app on your phone? Discover how Noaat is changing the way you save money every time you order food.",
+      "create_time": 1755784800000
+    },
+    {
+      "name": "Coupon Buying Guide: How to Find the Best Food Discounts",
+      "url_name": "coupon-buying-guide-find-best-food-discounts",
+      "image": "/image/coupon-guide.jpg",
+      "description": "Step-by-step, learn the best ways to buy a coupon and get significant food discounts from partner restaurants with Noaat.",
+      "create_time": 1755698400000
+    },
+    {
+      "name": "Why Cashback Beats a Regular Discount Code",
+      "url_name": "why-cashback-beats-a-regular-discount-code",
+      "image": "/image/cashback-vs-discount.jpg",
+      "description": "A comprehensive comparison between the cashback system and discount codes. Discover why Noaat's cashback service is your smartest long-term saving investment.",
+      "create_time": 1755612000000
+    },
+    {
+      "name": "Top Restaurant Deals in Egypt – Save Money & Enjoy Every Meal",
+      "url_name": "top-restaurant-deals-in-egypt",
+      "image": "/image/restaurant-deals.jpg",
+      "description": "Your ultimate guide to the best restaurant deals in Egypt. Discover how to find real food discounts, purchase coupons, and get the strongest cashback with Noaat.",
+      "create_time": 1755525600000
+    },
+    {
+      "name": "How to Get the Best Restaurant Cashback in Egypt: A Step-by-Step Guide",
+      "url_name": "how-to-get-the-best-restaurant-cashback-in-egypt",
+      "image": "/image/og.jpg",
+      "description": "Want to earn money while you eat? Our guide shows you how to find the best cashback on restaurant meals in Egypt using the Noaat app.",
+      "create_time": 1755439200000
+    },
+    {
+      "name": "How to Get the Best Restaurant Cashback in Egypt",
+      "url_name": "how-to-get-best-restaurant-cashback-egypt",
+      "image": "/image/cashback-blog.jpg",
+      "description": "Learn how to get the best cashback from partner restaurants in Egypt with نقط. Fast cashback service and exclusive food discounts available now.",
+      "create_time": 1755352800000
+    }
+  ]
 }
