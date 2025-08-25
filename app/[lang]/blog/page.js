@@ -3,6 +3,7 @@ import BlogCard from '@/components/blog/card';
 import BlogList from '@/locales/blog/list.json';
 import { defaultLocale, getDictionary } from '@/lib/i18n';
 import { SiteConfig } from '@/lib/config/site';
+
 export async function generateMetadata({ params, searchParams }) {
 	const langName = params.lang || defaultLocale;
 	const dict = await getDictionary(langName);
@@ -24,7 +25,6 @@ export default async function Page({ params }) {
 	const langName = params.lang || defaultLocale;
 	const dict = await getDictionary(langName);
 	const list = BlogList[langName];
-	const extendedList = Array.from({ length: 9 }, () => list[0]);
 
 	return (
 		<main className='container mx-auto md:px-5'>
@@ -46,7 +46,7 @@ export default async function Page({ params }) {
 			<div className='flex items-start gap-10 py-5'>
 				<div className='w-full'>
 					<section className='grid grid-cols-1 md:grid-cols-3 gap-10'>
-						{extendedList.map((item, index) => (
+						{list.map((item, index) => (
 							<BlogCard
 								key={index}
 								lang={params.lang || 'en'}
@@ -54,14 +54,6 @@ export default async function Page({ params }) {
 							/>
 						))}
 					</section>
-
-					{/* You need to implement your own pagination here */}
-					<div className='join my-10'>
-						<button className='join-item btn'>1</button>
-						<button className='join-item btn btn-active'>2</button>
-						<button className='join-item btn'>3</button>
-						<button className='join-item btn'>4</button>
-					</div>
 				</div>
 			</div>
 		</main>

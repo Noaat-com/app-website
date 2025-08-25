@@ -3,32 +3,31 @@ import { useParams, useRouter, usePathname } from 'next/navigation';
 import { defaultLocale, localeNames } from '@/lib/i18n';
 
 export default function LangSwitch() {
-	const params = useParams();
-	const lang = params.lang;
 	const pathname = usePathname();
 	const router = useRouter();
 
-	let langName = lang && lang !== 'index' ? lang : defaultLocale;
+	// Determine current language based on new routing strategy
+	const currentLang = pathname.startsWith('/en') ? 'en' : 'ar';
 
-	const handleSwitchLanguage = (value) => {
+	const handleSwitchLanguage = (targetLang) => {
 		return () => {
 			let newPathname;
-			const pathParts = pathname.split('/').filter(Boolean);
-
-			if (pathParts.length === 0) {
-				// 处理根路径
-				newPathname = `/${value}`;
-			} else if (pathParts[0] === lang) {
-				// 当前路径已经包含语言代码
-				pathParts[0] = value;
-				newPathname = '/' + pathParts.join('/');
+			
+			if (targetLang === 'ar') {
+				// Switching to Arabic - remove /en prefix if present
+				if (pathname.startsWith('/en')) {
+					newPathname = pathname.replace('/en', '') || '/';
+				} else {
+					newPathname = pathname; // Already Arabic
+				}
 			} else {
-				// 当前路径不包含语言代码
-				newPathname = `/${value}${pathname}`;
+				// Switching to English - add /en prefix
+				if (pathname.startsWith('/en')) {
+					newPathname = pathname; // Already English
+				} else {
+					newPathname = `/en${pathname === '/' ? '' : pathname}`;
+				}
 			}
-
-			// 确保路径末尾有斜杠
-			newPathname = newPathname.endsWith('/') ? newPathname : newPathname + '/';
 
 			router.replace(newPathname);
 		};
@@ -41,7 +40,7 @@ export default function LangSwitch() {
 				role='button'
 				className='flex items-center justify-center md:bg-base-100 md:rounded-full w-15 md:w-[100px] h-5 text-sm md:h-8 md:shadow-sm md:hover:shadow-md transition-all'
 			>
-				{localeNames[langName]}
+				{localeNames[currentLang]}
 			</div>
 			<ul
 				tabIndex={0}
