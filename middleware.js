@@ -2,20 +2,20 @@ import {reportLanguage} from './lib/function/lang';
 import {defaultLocale, locales} from './lib/i18n';
 import {NextResponse} from 'next/server';
 
+// Define paths that should be rewritten to include language prefix
 const rewritePaths = [
-  {pattern: /^\/$/, destination: `/${defaultLocale}/`},
-  {pattern: /^\/about(\/)?$/, destination: `/${defaultLocale}/about`},
-  {pattern: /^\/about-us(\/)?$/, destination: `/${defaultLocale}/about-us`},
-  {pattern: /^\/blog(\/)?$/, destination: `/${defaultLocale}/blog`},
-  {pattern: /^\/blog\/([^\/]+)(\/)?$/, destination: `/${defaultLocale}/blog/$1`},
-  {pattern: /^\/our-packages(\/)?$/, destination: `/${defaultLocale}/our-packages`},
-  {pattern: /^\/contact-us(\/)?$/, destination: `/${defaultLocale}/contact-us`},
-  {pattern: /^\/faqs(\/)?$/, destination: `/${defaultLocale}/faqs`},
-  {pattern: /^\/terms-and-conditions(\/)?$/, destination: `/${defaultLocale}/terms-and-conditions`},
-  {pattern: /^\/privacy-policy(\/)?$/, destination: `/${defaultLocale}/privacy-policy`},
-  {pattern: /^\/why-noaat(\/)?$/, destination: `/${defaultLocale}/why-noaat`},
-  {pattern: /^\/how-cashback-works(\/)?$/, destination: `/${defaultLocale}/how-cashback-works`},
-  {pattern: /^\/coupons-offers(\/)?$/, destination: `/${defaultLocale}/coupons-offers`},
+  {pattern: /^\/$/, destination: `/ar/`},
+  {pattern: /^\/about(\/)?$/, destination: `/ar/about`},
+  {pattern: /^\/about-us(\/)?$/, destination: `/ar/about-us`},
+  {pattern: /^\/blog(\/)?$/, destination: `/ar/blog`},
+  {pattern: /^\/blog\/([^\/]+)(\/)?$/, destination: `/ar/blog/$1`},
+  {pattern: /^\/for-business(\/)?$/, destination: `/ar/for-business`},
+  {pattern: /^\/our-packages(\/)?$/, destination: `/ar/for-business`},
+  {pattern: /^\/contact-us(\/)?$/, destination: `/ar/contact-us`},
+  {pattern: /^\/faqs(\/)?$/, destination: `/ar/faqs`},
+  {pattern: /^\/terms-and-conditions(\/)?$/, destination: `/ar/terms-and-conditions`},
+  {pattern: /^\/privacy-policy(\/)?$/, destination: `/ar/privacy-policy`},
+  {pattern: /^\/how-it-works(\/)?$/, destination: `/ar/how-it-works`},
 ];
 
 export function middleware(request) {
@@ -25,31 +25,37 @@ export function middleware(request) {
   request.headers.set('x-pathname', pathname);
   request.headers.set('x-language-directory', lang);
 
-  // Check if path already has a locale
-  const pathnameHasLocale = locales.some((locale) =>
-    pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
-  );
-
-  // Handle rewrite paths (for paths without locale)
-  if (!pathnameHasLocale) {
-    for (const {pattern, destination} of rewritePaths) {
-      const match = pathname.match(pattern);
-      if (match) {
-        const newPath = destination.replace('$1', match[1] || '');
-        request.nextUrl.pathname = newPath;
-        return NextResponse.rewrite(request.nextUrl);
-      }
-    }
-  }
-
-  // If path already has locale, continue normally
-  if (pathnameHasLocale) {
+  // Check if path starts with /en/ (English routes)
+  if (pathname.startsWith('/en/') || pathname === '/en') {
     return NextResponse.next();
   }
 
-  // For any other path without locale, redirect to default locale
-  request.nextUrl.pathname = `/${defaultLocale}${pathname}`;
-  return NextResponse.redirect(request.nextUrl);
+  // Check if path starts with /ar/ (Arabic routes) - redirect to remove /ar prefix
+  if (pathname.startsWith('/ar/')) {
+    const newPath = pathname.replace('/ar', '') || '/';
+    request.nextUrl.pathname = newPath;
+    return NextResponse.redirect(request.nextUrl);
+  }
+
+  // Check if it's exactly /ar
+  if (pathname === '/ar') {
+    request.nextUrl.pathname = '/';
+    return NextResponse.redirect(request.nextUrl);
+  }
+
+  // Handle rewrite paths (routes without language prefix - default to Arabic)
+  for (const {pattern, destination} of rewritePaths) {
+    const match = pathname.match(pattern);
+    if (match) {
+      const newPath = destination.replace('$1', match[1] || '');
+      request.nextUrl.pathname = newPath;
+      return NextResponse.rewrite(request.nextUrl);
+    }
+  }
+
+  // For any other path without locale prefix, assume it's Arabic
+  request.nextUrl.pathname = `/ar${pathname}`;
+  return NextResponse.rewrite(request.nextUrl);
 }
 
 export const config = {

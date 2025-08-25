@@ -15,10 +15,14 @@ export default function Navbar({ lang }) {
 	const [linkList, setLinkList] = useState([]);
 
 	useEffect(() => {
-		const currentLang = lang || defaultLocale;
-		setLangName(currentLang);
-		setLinkList(NavLinksList[`LINK_${currentLang.toUpperCase()}`] || []);
-	}, [lang, pathname]);
+		// Determine language based on new routing strategy
+		if (pathname.startsWith('/en')) {
+			setLangName('en');
+		} else {
+			setLangName('ar'); // Default to Arabic for all other paths
+		}
+		setLinkList(NavLinksList[`LINK_${langName.toUpperCase()}`] || []);
+	}, [pathname, langName]);
 
 	return (
 		<header className='w-full relative z-50 bg-base-100 p-5 pb-0 container mx-auto md:mb-5 flex justify-between items-center'>
@@ -26,16 +30,16 @@ export default function Navbar({ lang }) {
 				aria-label='Noaat homepage'
 				className='flex items-center w-1/2 md:w-1/5'
 				title='Noaat homepage'
-				href={`/${langName}`}
+				href={langName === 'en' ? '/en' : '/'}
 			>
 				<Image
 					width={100}
 					height={100}
-					src={'/Group-4-2 (1).png'}
+					src={'/logo.png'}
 					className='transition-all hover:scale-110 w-8 md:w-12 h-8 md:h-12'
 					alt='Noaat Logo'
 				></Image>
-				<h2 className='ml-3 font-bold leading-5 text-2xl'>نقط</h2>
+				<h2 className='ml-3 font-bold leading-5 text-2xl'>{langName === 'ar' ? 'نقط' : 'Noaat'}</h2>
 			</a>
 
 			<ul className='w-3/5 px-5 font-medium hidden md:flex flex-nowrap items-center justify-around'>
@@ -49,7 +53,7 @@ export default function Navbar({ lang }) {
 								aria-label={link.name}
 								className='group relative'
 								title={link.name}
-								href={`/${langName}${link.url}`}
+								href={langName === 'en' ? `/en${link.url}` : link.url}
 							>
 								{link.name}
 								<div className='absolute left-[50%] group-hover:left-0 w-0 group-hover:w-full h-[3px] transition-all duration-300 bg-base-content/90'></div>
@@ -73,7 +77,7 @@ export default function Navbar({ lang }) {
 									<a
 										aria-label={link.name}
 										title={link.name}
-										href={`/${langName}${link.url}`}
+										href={langName === 'en' ? `/en${link.url}` : link.url}
 									>
 										{link.name}
 									</a>

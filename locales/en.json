@@ -130,13 +130,128 @@
 		"btn3": "Browse Deals",
 		"btn4": "Learn More"
 	},
-	"About": {
-		"h1": "About Noaat",
-		"h2": "We are Noaat - the smart cashback system that turns every meal into a savings opportunity at partner restaurants in Egypt.",
-		"why": "Why Choose Noaat?",
-		"why_content": "Noaat isn't just another deals app - it's a complete system that connects you with partner restaurants to get the strongest cashback and save money with every order. We focus on speed and ease of use.",
-		"mission": "Our Mission",
-		"mission_content": "Our goal is to enable every Egyptian to eat from the restaurants they love while saving money at the same time. We work with hundreds of restaurants to provide the best offers and fastest cashback in Egypt."
+	"ForBusiness": {
+		"title": "Your Success Partner",
+		"subtitle": "Noaat is not just an offers app, we are your partner in expansion, understanding, and continuous improvement",
+		"description": "Learn how Noaat helps your business attract new customers, understand purchase behavior, and improve performance through precise analytics and personalized cashback",
+		"about": {
+			"title": "About Us",
+			"subtitle": "Noaat is a smart platform that helps partners attract new customers, understand purchasing behavior, and improve performance through precise analytics and personalized cashback",
+			"mission": {
+				"title": "Our Mission",
+				"description": "We aim to be the strategic partner for restaurants and businesses in Egypt, helping them understand their customers better and improve their profits through advanced yet simple technological solutions"
+			},
+			"vision": {
+				"title": "Our Vision",
+				"description": "To be the leading platform in the Middle East connecting businesses with their customers, transforming data into smart decisions that drive growth and prosperity"
+			},
+			"services": {
+				"title": "Our Partner Services",
+				"items": [
+					{
+						"icon": "⭐",
+						"title": "Customer Reviews",
+						"description": "Collect genuine feedback on product quality, service, and cleanliness"
+					},
+					{
+						"icon": "📊",
+						"title": "Detailed Reports",
+						"description": "Analyze offer performance across all branches"
+					},
+					{
+						"icon": "🔍",
+						"title": "Real-time Analytics",
+						"description": "Transform customer invoices into actionable insights"
+					},
+					{
+						"icon": "🎯",
+						"title": "Flexible System",
+						"description": "Customized cashback and coupons to attract customers"
+					}
+				]
+			},
+			"stats": {
+				"title": "Our Numbers Speak",
+				"items": [
+					{
+						"number": "500+",
+						"label": "Partner Restaurants"
+					},
+					{
+						"number": "50,000+",
+						"label": "Active Customers"
+					},
+					{
+						"number": "2M+",
+						"label": "EGP Cashback"
+					},
+					{
+						"number": "95%",
+						"label": "Partner Satisfaction"
+					}
+				]
+			}
+		},
+		"packages": {
+			"title": "Our Partner Packages",
+			"subtitle": "Choose the package that suits your business needs and get the most out of the Noaat platform",
+			"recommended": "Most Popular",
+			"cta": "Get Started",
+			"plans": [
+				{
+					"name": "Basic Package",
+					"price": "Free",
+					"description": "Perfect for small and emerging restaurants",
+					"features": [
+						"Up to 100 invoices per month",
+						"Basic cashback system",
+						"Monthly reports",
+						"Email support",
+						"Single branch management"
+					],
+					"recommended": false,
+					"color": "from-blue-500 to-blue-600"
+				},
+				{
+					"name": "Professional Package",
+					"price": "499 EGP/month",
+					"description": "Best suited for medium-sized restaurants",
+					"features": [
+						"Unlimited invoices",
+						"Advanced cashback and coupons",
+						"Detailed reports and analytics",
+						"24/7 phone support",
+						"Manage up to 5 branches",
+						"Customer reviews",
+						"Instant notifications"
+					],
+					"recommended": true,
+					"color": "from-purple-500 to-purple-600"
+				},
+				{
+					"name": "Enterprise Package",
+					"price": "Custom",
+					"description": "For large chains and corporations",
+					"features": [
+						"Custom solutions",
+						"POS system integration",
+						"Dedicated account manager",
+						"Team training",
+						"Unlimited branches",
+						"Custom API",
+						"Advanced AI-powered analytics"
+					],
+					"recommended": false,
+					"color": "from-amber-500 to-amber-600"
+				}
+			]
+		},
+		"contact": {
+			"title": "Ready to Start Your Journey with Us?",
+			"description": "Join hundreds of restaurants that benefit from the Noaat platform every day. Our team is ready to help you choose the right package",
+			"cta": "Contact for Free Consultation",
+			"demo": "Book a Demo"
+		}
 	},
 	"Blog": {
 		"title": "Noaat Blog",
@@ -606,6 +721,108 @@
 			"description": "Whether you're a restaurant wanting to increase sales or a customer wanting to save money, Noaat is the right place",
 			"partnersBtn": "Join as Partner",
 			"downloadBtn": "Download App Now"
+		}
+	},
+	"HowItWorks": {
+		"title": "Noaat App",
+		"subtitle": "The smartest way to eat and save money. Everything you need in one app: instant coupons and real cashback",
+		"description": "Learn how the Noaat app works and enjoy the best restaurant deals and cashback in Egypt",
+		"whyNoaat": {
+			"title": "Why Noaat?",
+			"features": [
+				{
+					"icon": "📱",
+					"title": "Everything in One App",
+					"description": "Why choose between discount codes and cashback offers? With Noaat, you have both in one place."
+				},
+				{
+					"icon": "🇪🇬",
+					"title": "Made for Egypt",
+					"description": "We focus entirely on restaurant offers in Egypt. We bring you the best restaurant deals that matter to you."
+				},
+				{
+					"icon": "💰",
+					"title": "Real and Transparent Savings",
+					"description": "Our cashback system gives you real money, and coupons provide instant and genuine discounts."
+				}
+			]
+		},
+		"howCashback": {
+			"title": "How to Earn Cashback with Noaat",
+			"howToEarn": {
+				"title": "Simple Steps:",
+				"steps": [
+					"Find cashback offers in the app",
+					"Order and pay at the restaurant normally",
+					"Take a photo of the receipt and upload it",
+					"Receive your money in your wallet instantly"
+				]
+			},
+			"benefits": {
+				"title": "Why Our Service is Better?",
+				"list": [
+					"Real money, not fake points",
+					"No restrictions on usage",
+					"Transparent and fast, see your earnings instantly",
+					"Highest cashback rates in Egypt"
+				]
+			},
+			"wallet": {
+				"title": "Your Wallet, Your Decision",
+				"description": "Once you have money in your Noaat wallet, you can use your balance to buy coupons with bigger discounts or save your money."
+			}
+		},
+		"coupons": {
+			"title": "Instant Discounts with Coupons",
+			"howToUse": {
+				"title": "How to Use Noaat Coupons:",
+				"steps": [
+					{
+						"title": "Browse Coupons",
+						"description": "Open the coupons section and find the best deal for you"
+					},
+					{
+						"title": "Buy the Coupon",
+						"description": "Pay with your card or wallet balance"
+					},
+					{
+						"title": "Activate at Restaurant",
+						"description": "Show the coupon to the cashier from the app"
+					},
+					{
+						"title": "Save Instantly",
+						"description": "The discount applies to your bill immediately"
+					}
+				]
+			},
+			"types": [
+				{
+					"icon": "💸",
+					"title": "Percentage Discounts",
+					"description": "Get 10%, 25%, or even 50% off your bill"
+				},
+				{
+					"icon": "🍔",
+					"title": "Buy One Get One",
+					"description": "Perfect when dining with friends or family"
+				},
+				{
+					"icon": "🍽️",
+					"title": "Fixed Price Meals",
+					"description": "Enjoy complete meals at special fixed prices"
+				}
+			]
+		},
+		"download": {
+			"title": "Ready to Start Saving with Every Meal?",
+			"description": "Join thousands of Egyptians saving money daily with the Noaat app",
+			"appStore": "Download from App Store",
+			"playStore": "Download from Google Play",
+			"features": {
+				"free": "Completely Free",
+				"realCashback": "Real Cashback",
+				"arabic": "Arabic Support"
+			}
 		}
 	}
 }

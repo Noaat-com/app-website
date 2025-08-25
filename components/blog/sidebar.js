@@ -7,7 +7,10 @@ import pubfn from '@/lib/function';
 export default async function Sidebar({ langName = 'en', description }) {
 	const dict = await getDictionary(langName);
 	const list = BlogList[langName];
-	const extendedList = Array.from({ length: 5 }, () => list[0]);
+	// Get the 5 most recent blogs sorted by create_time (descending)
+	const extendedList = list
+		.sort((a, b) => b.create_time - a.create_time)
+		.slice(0, 5);
 	return (
 		<>
 			<div className='ring-2 ring-base-content/10 p-5 md:p-10 rounded-2xl bg-base-100 mb-5'>
@@ -32,15 +35,11 @@ export default async function Sidebar({ langName = 'en', description }) {
 						>
 							<a
 								className='w-10/12 line-clamp-1 hover:text-primary'
-								href={`/${langName}/blog/${item.url_name}`}
+								href={langName === 'en' ? `/en/blog/${item.url_name}` : `/blog/${item.url_name}`}
 								alt={item.name}
 								title={item.name}
 							>
 								{item.name}
-								{item.name}
-								{item.name}
-								{item.name}
-								{index}
 							</a>
 							<span className='text-base-content/80'>{pubfn.timeFormat(item.create_time, 'MM-dd')}</span>
 						</li>
