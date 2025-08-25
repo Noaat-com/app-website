@@ -5,12 +5,10 @@ import Footer from '@/components/common/footer';
 
 export async function generateMetadata({ params }) {
 	const paramLang = params?.lang;
-	console.log('获取到的语言参数:', paramLang);
 
 	const lang = paramLang && locales.includes(paramLang) ? paramLang : defaultLocale;
 
 	if (!SiteConfig[lang]) {
-		console.error(`未找到语言配置: ${lang}`);
 		return {
 			title: SiteConfig[defaultLocale].name,
 		};
@@ -30,7 +28,6 @@ export async function generateMetadata({ params }) {
 }
 
 export default function LangLayout({ children, params }) {
-	// 获取当前语言
 	const lang = params?.lang || defaultLocale;
 
 	return (

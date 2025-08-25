@@ -1,45 +1,63 @@
-import { reportLanguage } from './lib/function/lang';
-import { locales } from './lib/i18n';
-import { NextRequest, NextResponse } from 'next/server';
+import {reportLanguage} from './lib/function/lang';
+import {defaultLocale, locales} from './lib/i18n';
+import {NextResponse} from 'next/server';
 
+// Define paths that should be rewritten to include language prefix
 const rewritePaths = [
-    { pattern: /^\/$/, destination: '/en/' },
-	{ pattern: /^\/about(\/)?$/, destination: '/en/about' },
-    { pattern: /^\/blog(\/)?$/, destination: '/en/blog' },
-    { pattern: /^\/blog\/([^\/]+)(\/)?$/, destination: '/en/blog/$1' },
-    // 可以根据需要添加更多的重写规则
+  {pattern: /^\/$/, destination: `/ar/`},
+  {pattern: /^\/about(\/)?$/, destination: `/ar/about`},
+  {pattern: /^\/about-us(\/)?$/, destination: `/ar/about-us`},
+  {pattern: /^\/blog(\/)?$/, destination: `/ar/blog`},
+  {pattern: /^\/blog\/([^\/]+)(\/)?$/, destination: `/ar/blog/$1`},
+  {pattern: /^\/for-business(\/)?$/, destination: `/ar/for-business`},
+  {pattern: /^\/our-packages(\/)?$/, destination: `/ar/for-business`},
+  {pattern: /^\/contact-us(\/)?$/, destination: `/ar/contact-us`},
+  {pattern: /^\/faqs(\/)?$/, destination: `/ar/faqs`},
+  {pattern: /^\/terms-and-conditions(\/)?$/, destination: `/ar/terms-and-conditions`},
+  {pattern: /^\/privacy-policy(\/)?$/, destination: `/ar/privacy-policy`},
+  {pattern: /^\/how-app-works(\/)?$/, destination: `/ar/how-app-works`},
 ];
 
 export function middleware(request) {
-	const { pathname } = request.nextUrl;
-	console.log("当前路径:", pathname);  // 保留日志
+  const {pathname} = request.nextUrl;
 
-	const lang = reportLanguage(pathname);
-	request.headers.set('x-pathname', pathname);
-	request.headers.set('x-language-directory', lang);
+  const lang = reportLanguage(pathname);
+  request.headers.set('x-pathname', pathname);
+  request.headers.set('x-language-directory', lang);
 
-	// 检查是否已经包含语言代码
-	const isExit = locales.some((locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`);
+  // Check if path starts with /en/ (English routes)
+  if (pathname.startsWith('/en/') || pathname === '/en') {
+    return NextResponse.next();
+  }
 
-	// 应用重写规则
-	for (const { pattern, destination } of rewritePaths) {
-		const match = pathname.match(pattern);
-		if (match) {
-			console.log(`重写路径: ${pathname} -> ${destination}`);  // 添加日志
-			request.nextUrl.pathname = pathname.replace(pattern, destination);
-			return NextResponse.rewrite(request.nextUrl);
-		}
-	}
+  // Check if path starts with /ar/ (Arabic routes) - redirect to remove /ar prefix
+  if (pathname.startsWith('/ar/')) {
+    const newPath = pathname.replace('/ar', '') || '/';
+    request.nextUrl.pathname = newPath;
+    return NextResponse.redirect(request.nextUrl);
+  }
 
+  // Check if it's exactly /ar
+  if (pathname === '/ar') {
+    request.nextUrl.pathname = '/';
+    return NextResponse.redirect(request.nextUrl);
+  }
 
-	if (isExit) return NextResponse.next();
+  // Handle rewrite paths (routes without language prefix - default to Arabic)
+  for (const {pattern, destination} of rewritePaths) {
+    const match = pathname.match(pattern);
+    if (match) {
+      const newPath = destination.replace('$1', match[1] || '');
+      request.nextUrl.pathname = newPath;
+      return NextResponse.rewrite(request.nextUrl);
+    }
+  }
 
-	// 如果没有匹配的重写规则，重定向到根路径
-	console.log(`重定向到根路径: ${pathname} -> /`);  // 添加日志
-	request.nextUrl.pathname = `/`;
-	return NextResponse.redirect(request.nextUrl);
+  // For any other path without locale prefix, assume it's Arabic
+  request.nextUrl.pathname = `/ar${pathname}`;
+  return NextResponse.rewrite(request.nextUrl);
 }
 
 export const config = {
-	matcher: ['/((?!_next)(?!.*\\.(?:ico|png|gif|svg|jpg|jpeg|xml|txt|mp4)$)(?!/api).*)'],
+  matcher: ['/((?!_next)(?!.*\\.(?:ico|png|gif|svg|jpg|jpeg|xml|txt|mp4)$)(?!/api).*)'],
 };

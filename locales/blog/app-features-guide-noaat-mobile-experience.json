@@ -1,0 +1,38 @@
+{
+  "ar": {
+    "name": "دليل مميزات تطبيق نقط - وفر بجد وبطريقة سهلة",
+    "url_name": "app-features-guide-noaat-mobile-experience",
+    "image": "/image/app-features.svg",
+    "description": "كل اللي محتاج تعرفه عن تطبيق نقط: كاش باك سريع، كوبونات خصم، عروض المطاعم في مصر، وواجهة عربية سهلة. جرب أوفر أبلكيشن عروض أكل.",
+    "content": "<h2>تطبيق نقط: الأداة الذكية للتوفير في مصر</h2><p>لو بتدور على طريقة سهلة ومضمونة عشان توفر في مصاريف أكلك، يبقى <strong>تطبيق نقط</strong> هو الحل. التطبيق مصمم بواجهة عربية كاملة وبسيطة، وموجه للمستخدم المصري اللي عايز يستفيد من كل جنيه بيدفعه في المطاعم.</p><h2>تجربة استخدام سهلة من أول لحظة</h2><p>أول ما تفتح <strong>تطبيق نقط</strong>، هتلاقي كل حاجة واضحة. خطوات التسجيل سريعة ومباشرة، مع شاشات إرشادية بتشرح لك <strong>مميزات التطبيق</strong> ببساطة ومن غير تعقيد، عشان تبدأ توفر فورًا.</p><h2>مصمم عشانك: واجهة مصرية أصيلة</h2><p><strong>تطبيق نقط</strong> مش مجرد تطبيق مترجم، لكنه بيتكلم بنفس لغتك. التصميم والألوان مريحة للعين، والقوائم والأزرار مترتبة بشكل منطقي يخليك توصل لكل <strong>عروض المطاعم</strong> بسهولة.</p><h2>رفع الفاتورة والحصول على كاش باك فوري</h2><p>واحدة من أهم <strong>مميزات التطبيق</strong> هي سهولة الحصول على الكاش باك. كل اللي عليك تعمله هو تصور الفاتورة، والتطبيق هيراجعها في دقايق، وبعدها رصيد الكاش باك هينزل في محفظتك مباشرة.</p><h2>محفظتك الرقمية: كل مدخراتك في مكان واحد</h2><p>تقدر تتابع كل مليم كسبته من خلال محفظتك الرقمية. هتعرف رصيدك الحالي، وتشوف تاريخ عملياتك، وتستخدم الرصيد ده في <strong>شراء كوبونات</strong> أو تسحبه بسهولة.</p><h2>ليه نقط هو أفضل ابلكيشن عروض اكل؟</h2><p>ببساطة، <strong>تطبيق نقط</strong> بيجمع لك كل حاجة في مكان واحد: مراجعة سريعة للفواتير، كاش باك حقيقي، شبكة واسعة من <strong>أشهر المطاعم في مصر</strong>، وإشعارات ذكية عشان متفوتش أي فرصة توفير.</p>",
+    "create_time": 1735076400000,
+    "tagList": [
+      {
+        "name": "تطبيق نقط",
+        "url_name": "noaat-app"
+      },
+      {
+        "name": "مميزات التطبيق",
+        "url_name": "app-features"
+      }
+    ]
+  },
+  "en": {
+    "name": "Your Guide to Noaat App Features – Save Smarter, Live Better",
+    "url_name": "app-features-guide-noaat-mobile-experience",
+    "image": "/image/app-features.svg",
+    "description": "Discover Noaat App: fast cashback, food coupons, and restaurant offers in Egypt. Arabic-friendly interface and smooth experience designed for Egyptians.",
+    "content": "<h2>Noaat App: The Smart Tool for Saving in Egypt</h2><p>If you're looking for an easy and guaranteed way to save on your food expenses, then the <strong>Noaat app</strong> is the solution. The app is designed with a full and simple Arabic interface, tailored for the Egyptian user who wants to benefit from every pound spent in restaurants.</p><h2>An Easy User Experience from the First Moment</h2><p>As soon as you open the <strong>Noaat app</strong>, you'll find everything clear. The registration steps are quick and straightforward, with instructional screens that explain the <strong>app features</strong> simply and without complexity, so you can start saving immediately.</p><h2>Designed for You: An Authentic Egyptian Interface</h2><p>The <strong>Noaat app</strong> isn't just a translated app; it speaks your language. The design and colors are pleasant, and the menus and buttons are arranged logically to let you access all <strong>restaurant deals</strong> easily.</p><h2>Upload the Receipt and Get Instant Cashback</h2><p>One of the most important <strong>app features</strong> is the ease of getting cashback. All you have to do is photograph the receipt, the app will review it in minutes, and then the cashback balance will be added to your wallet instantly.</p><h2>Your Digital Wallet: All Your Savings in One Place</h2><p>You can track every penny you've earned through your digital wallet. You'll know your current balance, see your transaction history, and use that balance to <strong>buy coupons</strong> or withdraw it easily.</p><h2>Why is Noaat the Best Food Deals App?</h2><p>Simply put, the <strong>Noaat app</strong> brings everything together in one place: quick receipt reviews, real cashback, a wide network of the <strong>most famous restaurants in Egypt</strong>, and smart notifications so you never miss a saving opportunity.</p>",
+    "create_time": 1735076400000,
+    "tagList": [
+      {
+        "name": "noaat app",
+        "url_name": "noaat-app"
+      },
+      {
+        "name": "app features",
+        "url_name": "app-features"
+      }
+    ]
+  }
+}

@@ -1,11 +1,11 @@
 'use client';
 import { motion } from 'framer-motion';
 import FeatureCard from './feature/card';
-import { FeaturesList } from '@/lib/featuresList';
 import { MdOutlineFeaturedPlayList } from 'react-icons/md';
 
 export default function Feature({ locale, langName = 'en' }) {
-	let list = FeaturesList[`FRETURES_${langName.toUpperCase()}`] || [];
+	// The list of features is now expected to be part of the locale prop
+	const list = locale.list || [];
 
 	return (
 		<section
@@ -30,14 +30,6 @@ export default function Feature({ locale, langName = 'en' }) {
 					<h3 className='font-bold text-3xl md:text-5xl bg-gradient-to-r from-base-content from-50% to-[#9c9c9c] md:text-center bg-clip-text text-transparent !leading-[1.25em]'>
 						{locale.h3}
 					</h3>
-
-					<h4 className='w-full md:w-10/12 mx-auto text-xl md:text-2xl text-base-content/80 md:text-center'>
-						{locale.description1}
-						<br />
-						{locale.description2}
-						<br />
-						{locale.description3}
-					</h4>
 				</div>
 			</motion.div>
 
